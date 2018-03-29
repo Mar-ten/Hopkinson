@@ -1,0 +1,22 @@
+%% SHPB Test Data Plots
+
+time=zeros(125000,15);
+v_incident=zeros(125000,15);
+v_transmitted=zeros(125000,15);
+
+for i=1:15
+    filename=['Group4_Test',num2str(i)];
+    data=importdata(filename,',',16);
+    time(:,i)=data.data(:,1);
+    v_incident(:,i)=data.data(:,4);
+    v_transmitted(:,i)=data.data(:,6);
+end
+
+color=[1 0 1; 0 1 1; 1 1 0; 0 1 0;
+    
+figure
+hold on
+for ii=1:5
+plot(time(:,ii),v_incident(:,ii),'.-','Color',color(ii,:))
+plot(time(:,ii),v_transmitted(:,ii),'.','Color',color(ii,:))
+end
