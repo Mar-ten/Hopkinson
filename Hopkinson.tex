@@ -102,6 +102,28 @@
 
 \subsubsection{Statistical Analysis} % John
 
+Central tendency and dispersion are two common ways to quantify the distribution of a data set (ref). Central tendency is quantified using the measures of mean and median. The mean of a data set is given by
+\begin{equation}
+\bar{x} = \sum_{i=1}^{n}\frac{x_{i}}{n}
+\end{equation}
+where $\bar{x}$ is the mean, $n$ is the number of data points and $x_{i}$ is the ith data point. The median is the central value of an ordered set of the data. Dispersion represents the distribution of data around the central tendency, usually the mean. Dispersion is measured using standard deviation and variance, given by 
+\begin{equation}
+S_{x} = \left[\sum_{i=1}^{n}\frac{\left(x_{i}-\bar{x}\right)^2}{n-1}\right]^\frac{1}{2}
+\end{equation}  
+\begin{equation}
+S_{x}^2 = \sum_{i=1}^{n}\frac{\left(x_{i}-\bar{x}\right)^2}{n-1}
+\end{equation} 
+where $S_{x}$ is the standard deviation and $S_{x}^2$ is the variance.
+
+For experiments involving strength of materials due to brittle fracture, a Weibull distribution function can be applied to show the probability of failure at a given strength value (ref). The Weibull Distribution is given by
+\begin{equation}
+p(x) = 1-e^{-\left[\frac{\left(x-x_{o}\right)}{b}\right]^m} \text{ for } x > x_{o}
+\end{equation}
+\begin{equation}
+p(x) = 0  \text { for } x < x_{o}
+\end{equation} 
+where $p(x)$ is the probability of failure occurring at $x$, $x_{o}$ is the zero strength value of the distribution, $b$ is scale parameter and $m$ is the Weibull slope parameter. The values of distribution parameters $x_{o}$, $b$ and $m$ can be determined iteratively or by use of a commercial software such as MATLAB. MATLAB has a built in function, $wblfit$. that generates the Weibull parameters and probability distribution function with a 95\% confidence interval (ref).
+
 \subsection{Procedure} % John
 
 \subsection{Error and Uncertainties} % Nick 
