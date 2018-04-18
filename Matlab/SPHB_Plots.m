@@ -1,8 +1,12 @@
+
 %% SHPB Test Data Plots
 
-time=zeros(125000,15);
-v_incident=zeros(125000,15);
-v_transmitted=zeros(125000,15);
+clc
+clear
+
+time=zeros(125000,14);
+v_incident=zeros(125000,14);
+v_transmitted=zeros(125000,14);
 
 for i=1:14
     filename=['Group4_Test',num2str(i),'.csv'];
@@ -14,7 +18,7 @@ end
 
 color=[0 0 0; 1 0 0; 0 1 0; 0 0 1; .5 .5 .5];
     
-figure
+figure(1)
 hold on
    
 for ii=1:5
@@ -22,3 +26,56 @@ for ii=1:5
     %plot(time(:,ii),v_transmitted(:,ii),'.','Color',color(ii,:))
 end
 legend({'Calibration','0.625 in Lead', '0.5 in Lead','0.375 in Lead','0.625 in Paper'})
+
+%% Wave data analysis
+
+strength = zeros(1,14);                                                    %vector to store computed strength values
+for i=6:6                                                                  %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
+    
+    c = BarSpeed(i,2.4384);                                                %compute bar speed from recorded data
+    dt = time(2,i)-time(1,i);                                              %time step in recorded data
+    
+    
+    incident_avg = mean(v_incident(1:100,i));                              %average in signal noise of incident wave
+    count = 1;                                                             %used to index
+    
+    [a, b] = max(v_incident(:,i));                                         %a is max value of incident wave, b is index of this value
+    [c, d] = min(v_incident(:,i));                                         %c is max value of reflected wave, d is index of this value
+
+    index = floor((d-b)/2);                                                %midpoint of incident/reflected waves. This is the number of index values that each wave will need to be transformed
+        
+    for j=1:125000
+        if v_incident(j,i) > 9.15*incident_avg                             %average computed earlier used to trigger start of incident wave
+            incident(count,1) = time(j,i);                                 %time values for incident wave
+            incident(count,2) = v_incident(j,i);                           %voltage values for incident wave
+            if count == 1
+                mark = j;                                                  %index of trigger for incident wave
+            end
+            count = count+1;                                               %increased index
+        end
+
+    end
+    
+    n=length(incident);                                                    %number of recorded data points for incident wave
+    N = n/2;                                                               %this is an input for the equations I think
+    T = incident(n,1)-incident(1,1);                                       %total elapsed time from start of incident wave to end
+    rate = n/T;                                                            %sampling rate of system
+    
+    for m=1:n
+    
+        reflect(m,1) = time(mark+m+(d-b),i);                               %center index value found earlier used to compute start of reflected wave pulse, time values
+        reflect(m,2) = v_incident(mark+m+(d-b),i);                         %voltage values for reflected pulse
+        transmitted(m,1) = time(mark+(2*index)+m,i);                       %center index value used to compute start of reflected pulse, time values
+        transmitted(m,2) = v_transmitted(mark+(2*index)+m,i);              %voltage values for reflected pulse
+        
+    end
+    
+    figure(2)
+    plot(incident(:,1),incident(:,2))
+        
+    figure(3)
+    plot(reflect(:,1),reflect(:,2))
+        
+    figure(4)
+    plot(transmitted(:,1),transmitted(:,2))
+end
