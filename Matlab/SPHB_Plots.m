@@ -65,7 +65,7 @@ for i=6:6                                                                  %each
     k=1:1:N;
     w0 = (2*pi)/T;
     
-    for m=1:n
+    for m=1:length(n)
     
         reflect(m,1) = time(mark+m+(d-b),i);                               %center index value found earlier used to compute start of reflected wave pulse, time values
         reflect(m,2) = v_incident(mark+m+(d-b),i);                         %voltage values for reflected pulse
@@ -80,23 +80,24 @@ for i=6:6                                                                  %each
     Ck(1:end) = k(1:end).*w0.*frequencies(1:end)./(2*pi);
     
     incident_t = fft(incident(:,2))/(N/2);
+    reflect_t = fft(reflect(:,2))/(N/2);
+    transmit_t = fft(transmitted(:,2))/(N/2);
     F_incident = zeros(1,length(n));
+    F_reflect = zeros(1,length(n));
+    F_transmit = zeros(1,length(n));
     for q=1:length(n)
-%         F_incident(q) = (A0/2)+sum;
+
         check = 0;
-        
         for l=1:N
             phi(l) = k(l)*w0*(1.2192/Ck(l));
             check = check + F_incident(q)+imag(incident_t(l))*cos((k(l)*w0*incident(q,1))-phi(l))+...
                 real(incident_t(l))*sin((k(i)*w0*incident(q,1))-phi(l));
         end
-        
         F_incident(q) = check;
         
     end
     
-    reflect_t = fft(reflect)/(N/2);
-    transmit_t = fft(transmitted)/(N/2);
+    
     
     
     
