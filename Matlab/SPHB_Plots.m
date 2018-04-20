@@ -27,16 +27,27 @@ for ii=1:5
 end
 legend({'Calibration','0.625 in Lead', '0.5 in Lead','0.375 in Lead','0.625 in Paper'})
 
+
 %% Wave data analysis
 
 speed = BarSpeed(5,2.4384);                                                %compute bar speed from recorded data
 strength = zeros(1,14);                                                    %vector to store computed strength values
-for i=6:6                                                                  %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
+equilibrium = zeros(1,14);
+
+for i=6:14                                                                  %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
                                                
-    dt = time(2,i)-time(1,i);                                              %time step in recorded data
+    dt = time(2,i)-time(1,i);                                                  %time step in recorded data
     
+%     figure(6)
+%     plot(time(:,1),v_incident(:,i))
+%     hold on
+%     plot(time(:,i),v_transmitted(:,i))
     
-    incident_avg = mean(v_incident(1:100,i));                              %average in signal noise of incident wave
+    trigger = abs(mean(v_incident(1:100,i)));                              %average in signal noise of incident wave
+    if trigger < 0.002
+        trigger = 0.002;
+    end
+    
     count = 1;                                                             %used to index
     
     [a, b] = max(v_incident(:,i));                                         %a is max value of incident wave, b is index of this value
@@ -47,7 +58,7 @@ for i=6:6                                                                  %each
     num = floor((0.9652/speed)/dt);                                        %used bar speed to find index of transmitted wave rise
     
     for j=1:125000
-        if v_incident(j,i) > 9.15*incident_avg                             %average computed earlier used to trigger start of incident wave
+        if v_incident(j,i) > 9.5*trigger                             %average computed earlier used to trigger start of incident wave
             incident(count,1) = time(j,i);                                 %time values for incident wave
             incident(count,2) = v_incident(j,i);                           %voltage values for incident wave
             if count == 1
@@ -59,7 +70,7 @@ for i=6:6                                                                  %each
     end
     
     n=1:1:length(incident);                                                    %number of recorded data points for incident wave
-    N = floor(length(incident)/2);                                                               %this is an input for the equations I think
+    N = floor(length(incident)/2);                                                               
     T = incident(length(incident),1)-incident(1,1);                                       %total elapsed time from start of incident wave to end
     rate = length(incident)/T;                                                            %sampling rate of system
     k=1:1:N;
@@ -76,10 +87,21 @@ for i=6:6                                                                  %each
     
     frequencies = zeros(1,N);
     Ck = zeros(1,N);
+    A=0.57106;
+    B=0.43016;
+    C=16.764;
+    D=19.679;
+    E=-5.8543;
+    F=2.1532;
+    radius = 0.01905/2;
     frequencies(1:end) = k(1:end).*(rate/N);
-    Ck(1:end) = k(1:end).*w0.*frequencies(1:end)./(2*pi);
+    wavelength = speed./frequencies;
     
-    incident_t = fft(incident(:,2))/(N/2);
+%     Ck(1:end) = speed.*(A+(B./((C*(radius./wavelength(1:end)).^4)+(D*(radius./wavelength(1:end)).^3)+(D*(radius./wavelength(1:end)).^2)+(F*(radius./wavelength(1:end)).^1.5)+1)));
+    
+    Ck = (k.*w0.*wavelength)/(2*pi);
+    
+    incident_t = fft(incident(:,2))./(N);
     reflect_t = fft(reflect(:,2))/(N/2);
     transmit_t = fft(transmitted(:,2))/(N/2);
     F_incident = zeros(1,length(n));
@@ -88,23 +110,58 @@ for i=6:6                                                                  %each
     for q=1:length(n)
 
         check = 0;
-        for l=1:N
+        for l=2:50
             phi(l) = k(l)*w0*(1.2192/Ck(l));
-            check = check + F_incident(q)+imag(incident_t(l))*cos((k(l)*w0*incident(q,1))-phi(l))+...
-                real(incident_t(l))*sin((k(i)*w0*incident(q,1))-phi(l));
+            check = check + real(incident_t(l))*cos((k(l-1)*w0*incident(q,1))-phi(l))+...
+                imag(incident_t(l))*sin((k(l-1)*w0*incident(q,1))-phi(l));
         end
-        F_incident(q) = check;
+        F_incident(q) = check+(real(incident_t(1))/2);
         
     end
     
+    for x=1:length(n)
+        var = 0;
+        for y=2:50
+            phi(y) = k(y)*w0*(-0.9652/Ck(y));
+            var = var + real(transmit_t(y))*cos((k(y-1)*w0*transmitted(x,1))-phi(y))+...
+                imag(transmit_t(y))*sin((k(y-1)*w0*transmitted(x,1))-phi(y));
+        end
+        F_transmit(x) = var+(real(transmit_t(1))/2);
+    end
     
+    for x=1:length(n)
+        var = 0;
+        for y=2:50
+            phi(y) = k(y)*w0*(-1.2192/Ck(y));
+            var = var + real(reflect_t(y))*cos((k(y-1)*w0*reflect(x,1))-phi(y))+...
+                imag(reflect_t(y))*sin((k(y-1)*w0*reflect(x,1))-phi(y));
+        end
+        F_reflect(x) = var+(real(reflect_t(1))/2);
+    end
     
+    t_incident = incident(:,1)+(1.2192/speed);
+    t_transmit = transmitted(:,1)-(0.9652/speed);
+    t_reflect = reflect(:,1)-(1.2192/speed);
     
+    [g,h]=max(F_transmit);
+    e_transmit = abs(Volt2Strain(g));
+    e_incident = Volt2Strain(F_incident(h));
+    e_reflect = Volt2Strain(F_reflect(h));
     
-    figure(2)
-    plot(incident(:,1),incident(:,2))
-    figure(3)
-    plot(incident(:,1),F_incident(:))
+    F1 = pi*((0.01905/2)^2)*70.3e9*e_incident+e_reflect;
+    F2 = pi*((0.01905/2)^2)*70.3e9*e_transmit;
+    
+    strength(i) = F2*(2/pi)*(1/(0.00635*0.01905));
+    equilibrium(i) = F2-F1;
+    
+%     figure(2)
+%     plot(incident(:,1),incident(:,2))
+%     figure(3)
+%     plot(t_incident,F_incident)
+%     figure(4)
+%     plot(transmitted(:,1),transmitted(:,2))
+%     figure(5)
+%     plot(t_transmit,F_transmit)
     
     
     
