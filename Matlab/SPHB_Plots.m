@@ -16,6 +16,14 @@ for i=1:14
     v_transmitted(:,i)=data.data(:,4);
 end
 
+for i=15:53
+    filename=['data_',num2str(i),'.csv'];
+    data=importdata(filename,',',16);
+    time(:,i)=data.data(:,1);
+    v_incident(:,i)=data.data(:,2);
+    v_transmitted(:,i)=data.data(:,4);
+end
+
 color=[0 0 0; 1 0 0; 0 1 0; 0 0 1; .5 .5 .5];
     
 figure(1)
@@ -31,10 +39,10 @@ legend({'Calibration','0.625 in Lead', '0.5 in Lead','0.375 in Lead','0.625 in P
 %% Wave data analysis
 
 speed = BarSpeed(5,2.4384);                                                %compute bar speed from recorded data
-strength = zeros(1,14);                                                    %vector to store computed strength values
-equilibrium = zeros(1,14);
+strength = zeros(1,48);                                                    %vector to store computed strength values
+equilibrium = zeros(1,48);
 
-for i=6:14                                                                  %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
+for i=6:53                                                                  %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
                                                
     dt = time(2,i)-time(1,i);                                                  %time step in recorded data
     
@@ -151,13 +159,11 @@ for i=6:14                                                                  %eac
     F1 = pi*((0.01905/2)^2)*70.3e9*e_incident+e_reflect;
     F2 = pi*((0.01905/2)^2)*70.3e9*e_transmit;
     
-    strength(i) = F2*(2/pi)*(1/(0.00635*0.01905));
+    strength(i-5) = F2*(2/pi)*(1/(0.00635*0.01905));
     equilibrium(i) = F2-F1;
     
 %     figure(2)
-%     plot(incident(:,1),incident(:,2))
-%     figure(3)
-%     plot(t_incident,F_incident)
+%     plot(t_incident,F_incident,t_incident,F_reflect,t_incident,F_transmit)
 %     figure(4)
 %     plot(transmitted(:,1),transmitted(:,2))
 %     figure(5)
