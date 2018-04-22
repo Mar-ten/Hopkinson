@@ -16,7 +16,7 @@ for i=1:14
     v_transmitted(:,i)=data.data(:,4);
 end
 
-for i=15:53
+for i=15:51
     filename=['data_',num2str(i),'.csv'];
     data=importdata(filename,',',16);
     time(:,i)=data.data(:,1);
@@ -39,10 +39,10 @@ legend({'Calibration','0.625 in Lead', '0.5 in Lead','0.375 in Lead','0.625 in P
 %% Wave data analysis
 
 speed = BarSpeed(5,2.4384);                                                %compute bar speed from recorded data
-strength = zeros(1,48);                                                    %vector to store computed strength values
-equilibrium = zeros(1,48);
+strength = zeros(1,46);                                                    %vector to store computed strength values
+equilibrium = zeros(1,46);
 
-for i=6:53                                                                 %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
+for i=6:51                                                                 %each iteration of i will compute the strength value for a single dataset, set to just compute 1 to limit time
                                                
     dt = time(2,i)-time(1,i);                                              %time step in recorded data
     
@@ -63,7 +63,7 @@ for i=6:53                                                                 %each
 
     index = floor(((1.2192*2)/speed)/dt);                                  %used bar speed to find beginning of reflected wave
         
-    num = floor((0.9652/speed)/dt);                                        %used bar speed to find index of transmitted wave rise
+    num = floor(((1.21920+.9652)/speed)/dt);                               %used bar speed to find index of transmitted wave rise
     
     for j=1:125000
         if v_incident(j,i) > 9.5*trigger                                   %average computed earlier used to trigger start of incident wave
@@ -88,8 +88,8 @@ for i=6:53                                                                 %each
     
         reflect(m,1) = time(mark+m+index,i);                               %center index value found earlier used to compute start of reflected wave pulse, time values
         reflect(m,2) = v_incident(mark+m+index,i);                         %voltage values for reflected pulse
-        transmitted(m,1) = time(mark+num+index+m,i);                       %center index value used to compute start of reflected pulse, time values
-        transmitted(m,2) = v_transmitted(mark+index+num+m,i);              %voltage values for reflected pulse
+        transmitted(m,1) = time(mark+num+m,i);                             %center index value used to compute start of reflected pulse, time values
+        transmitted(m,2) = v_transmitted(mark+num+m,i);                    %voltage values for reflected pulse
         
     end
     
@@ -128,23 +128,23 @@ for i=6:53                                                                 %each
     end
     
     for x=1:length(n)
-        var = 0;
+        summation = 0;
         for y=2:50
             phi(y) = k(y)*w0*(-0.9652/Ck(y));
-            var = var + real(transmit_t(y))*cos((k(y-1)*w0*transmitted(x,1))-phi(y))+...  %forward/backward dispersion equation implementation of transmitted wave
+            summation = summation + real(transmit_t(y))*cos((k(y-1)*w0*transmitted(x,1))-phi(y))+...  %forward/backward dispersion equation implementation of transmitted wave
                 imag(transmit_t(y))*sin((k(y-1)*w0*transmitted(x,1))-phi(y));
         end
-        F_transmit(x) = var+(real(transmit_t(1))/2);
+        F_transmit(x) = summation+(real(transmit_t(1))/2);
     end
     
     for x=1:length(n)
-        var = 0;
+        summation = 0;
         for y=2:50
             phi(y) = k(y)*w0*(-1.2192/Ck(y));
-            var = var + real(reflect_t(y))*cos((k(y-1)*w0*reflect(x,1))-phi(y))+...      %forward/backward dispersion equation implementation for reflected wave
+            summation = summation + real(reflect_t(y))*cos((k(y-1)*w0*reflect(x,1))-phi(y))+...      %forward/backward dispersion equation implementation for reflected wave
                 imag(reflect_t(y))*sin((k(y-1)*w0*reflect(x,1))-phi(y));
         end
-        F_reflect(x) = var+(real(reflect_t(1))/2);
+        F_reflect(x) = summation+(real(reflect_t(1))/2);
     end
     
     t_incident = incident(:,1)+(1.2192/speed);                             %time index correction based on bar wave speed
@@ -162,13 +162,29 @@ for i=6:53                                                                 %each
     strength(i-5) = F2*(2/pi)*(1/(0.00635*0.01905));                       %strength values for each test
     equilibrium(i-5) = F2-F1;                                              %force equilibrium
     
-%     figure(2)
-%     plot(t_incident,F_incident,t_incident,F_reflect,t_incident,F_transmit)
-%     figure(4)
-%     plot(transmitted(:,1),transmitted(:,2))
-%     figure(5)
-%     plot(t_transmit,F_transmit)
-    
-    
-    
 end
+
+%% Experiment 3 - Statistical Analysis
+
+sigma = strength; 
+% This will be the input from NIck's function, right now I am just using a
+% random number generator for 0-8 MPa (50 results)
+
+% Central Tendency:
+sigma_bar = mean(sigma);  % mean
+sigma_med = median(sigma);  % median
+
+% Dispersion:
+sigma_std = std(sigma);   % standard deviation
+sigma_var = var(sigma);   % variance
+
+% Weibull
+sigma_dist = wblfit(sigma);
+
+a = sigma_dist(1);
+b = sigma_dist(2);
+
+figure(2)
+wblplot(sigma)
+xlabel('log(\sigma_T)')
+title('Weibull Probability of Concrete Tensile Strength')

@@ -9,5 +9,5 @@ function [strain]=Volt2Strain(V_ch)
     Gain = 5/((V_ex/1000)*u);
     V_f = V_ch/(V_ex*Gain);
 
-    strain = -2*V_f/(GF*(nu+1)-V_f*(nu-1))
+    strain = -2*V_f/(GF*(nu+1)-V_f*(nu-1));
 end 
