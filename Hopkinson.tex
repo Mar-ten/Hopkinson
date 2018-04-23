@@ -104,59 +104,59 @@ In this report, a SHPB is used to investigate the high rate tensile behavior of 
 \subsubsection {Split Hopkinson Pressure Bar} % Nick
 %Gas gun, bar, location, etc
 The Split Hopkinson Pressure Bar (SHPB) system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in figure (bar alignment cartoon). A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar (Frew 2001). Upon reaching a test specimen placed at the end of the bar as in figure (overall setup), the specimen is deformed at a very high strain rate by the compressive wave. This deformation is captured by a new wave propogated into the transmitted bar. Additionally, a portion of the incident wave is reflected back along the incident bar; after changing directions it also changes sign and becomes a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
-\\
+\\ \\
 For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogenous, isotropic material. Furthermore, the bars must be uniform in cross section, which is acheived through centerless grinding. Finally, initial impact must not exceed the yeild strength of the bar else plasticity would distort the data. It is also assumed that the stress distribution over the cross section of the bar must be uniform. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still usable. 
-\\
+\\ \\
 One of the limitations of a SHPB system is that with finite bars, dispersion effects must be considered due to variations in the speed different frequencies travel within a medium. Two means are commonly used to compensate for these. The first is the use of pulse shaping. When pulse shaping, a sacrificial material is placed between the striker bar and the incident bar. An ideal pulse shaper softens the rise of incident pulse so that it more closely resembles that of the material being tested. By doing this, the frequency content of the system is lessened and it can be assumed that only a single frequency exists in the pulse. The second means of compensating for dispersion is through the use of post processing. It must be remembered that the measurements are taken by strain gauges in the center of each bar to ensure that a clean signal can be measured as well as to ensure that the incident and reflected waves are separately recorded. To then march these waveforms forward or backward in time to represent the conditions upon specimen failure, the Fourier series
 
 \begin{equation}
-F(n\Delta T) = A_0/2 + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi) + B_k sin(k\omega_0 n\Delta T - \phi)]
+F(n\Delta T) = \frac{A_0}{2} + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi) + B_k sin(k\omega_0 n\Delta T - \phi)]
 \end{equation}
 
 is used, where 
 
 \begin{equation}
-\phi_(TS) = k\omega_0(\Delta x/C_k)
+\phi_{TS} = k\omega_0(\Delta x/C_k)
 \end{equation} ,
 
 \begin{equation}
-A_0 = 2/T \int_0^T \! f(x) dt
+A_0 = \frac{2}{T} \int_0^T \! f(x) dt
 \end{equation} ,
 
 \begin{equation}
-A_k = 2/T \int_0^T \! f(t)cos(k\omega_0t) \, dt
+A_k = \frac{2}{T} \int_0^T \! f(t)cos(k\omega_0t) \, dt
 \end{equation} ,
 
 and
 
 \begin{equation}
-B_k = 2/T \int_0^T \! f(t)sin(k\omega_0t) \, dt
+B_k = \frac{2}{T} \int_0^T \! f(t)sin(k\omega_0t) \, dt
 \end{equation} .
 
-Within these, T is the period of the wave, \$w_0\$ is the fundamental frequency, n = 1,2,...2N, where N = half the number of recorded data points, C_k is the speed of a wave at the kth frequency, \$\Delta T\$ is the time step between recording intervals, and \$ \Delta x\$ is the distance the wave is being transformed i.e. the distance from the strain gauges to the specimen. Once the waves have been transformed so they are at the same point in time, the strain gauge readings can be transformed into voltages and force values can be determined. Force on the left side of the bar is found through the equation 
+Within these, $T$ is the period of the wave, $\omega_0$ is the fundamental frequency, $n$ = 1,2,...2$N$, where $N$ = half the number of recorded data points, $C_k$ is the speed of a wave at the $kth$ frequency, $\Delta T$ is the time step between recording intervals, and $\Delta x$ is the distance the wave is being transformed i.e. the distance from the strain gauges to the specimen. Once the waves have been transformed so they are at the same point in time, the strain gauge readings can be transformed into voltages and force values can be determined. Force on the left side of the bar is found through the equation 
 
 \begin{equation}
-F_1 = A_(bar)E_(bar)(\epsilon_I + \epsilon_R)
+F_1 = A_{Bar}E_{Bar}(\epsilon_I + \epsilon_R)
 \end{equation}
 
 and similarly, force on the right side of the bar is
 
 \begin{equation}
-F_2 = A_(bar)_E_(bar)(\epsilon_T)
+F_2 = A_{Bar}E_{Bar}(\epsilon_T)
 \end{equation}.
 
-From force equilibrium, both of these force values should be the same. Finally, from ASTM D3957-08 (cite standard) the tensile strengh of the Brazil disc specimens is found from
+From force equilibrium, both of these force values should be the same. Finally, from ASTM D3957-08 (cite standard) the tensile strength of the Brazil disc specimens is found from
 
 \begin{equation}
-\sigma_t = 2P/\pi Dt
+\sigma_t = \frac{2P}{\pi Dt}
 \end{equation}
 
-where P is the force applied by one side of the bar, t is the specimen thickness, and D is the specimen diameter. Through the application of forces on the specimen geometry, the compressive wave from the SHPB will produce a tensile loading to fail the specimen.
+where $P$ is the force applied by one side of the bar, $t$ is the specimen thickness, and $D$ is the specimen diameter. Through the application of forces on the specimen geometry, the compressive wave from the SHPB will produce a tensile loading to fail the specimen.
 
 \subsubsection{High Strain Rate Data Acquisition} % Nick
 %Strain gauges, scope
 Data for the SHPB is recorded through strain gauges adhered to the center of each bar. These gauges are arranged in a full bride configuration which only measures deformations in the axial direction. This further helps satisfy the theoretical requirement for axial wave propogation because due to the difficulty in perfectly aligning the bars, other minute deformations may exist.
-\\
+\\ \\
 Data was recorded throught the use of a Dewetron (citation) data acquision system (DAQ). A very high samping rate is desirable for the purposes of this experiment to get the 
 
 \subsubsection{Statistical Analysis} % John
@@ -185,7 +185,7 @@ where $p(x)$ is the probability of failure occurring at $x$, $x_{o}$ is the zero
 
 \subsection{Procedure} % John
 
-Concrete Brazil Disc specimens with a diameter of xx mm and thickness of xx mm were loaded in a SHPB test setup. The SHPB utilized 19.05 mm diameter aluminum 7075-T6 bars for the incident and transmitted bars. The incident bar length was 2.438 m and the transmitted bar length was 1.930 m. Aluminum platens with a matching acoustic impedance were attached to the loading end of the incident and transmitted bars to prevent damage to the SHPB apparatus from the concrete specimens. A 1.058 mm thick, 9.525 mm diameter lead pulse shaper was placed on the non-loading end of the incident bar for each test. The striker bar was propelled using a REL gas gun. The experimental setup can be seen in Figure \ref{fig:TestSetup}.
+Concrete Brazil Disc specimens with a diameter of 19.05 mm and thickness of 6.35 mm were loaded in a SHPB test setup. The SHPB utilized 19.05 mm diameter aluminum 7075-T6 bars for the incident and transmitted bars. The incident bar length was 2.438 m and the transmitted bar length was 1.930 m. Aluminum platens with a matching acoustic impedance were attached to the loading end of the incident and transmitted bars to prevent damage to the SHPB apparatus from the concrete specimens. A 1.058 mm thick, 9.525 mm diameter lead pulse shaper was placed on the non-loading end of the incident bar for each test. The striker bar was propelled using a REL gas gun. The experimental setup can be seen in Figure \ref{fig:TestSetup}.
 \\ \\
 Initial calibration and bar wave speed were determined without specimens using a gas gun pressure of 10.2 psi. A total of ten specimens were tested at four separate gas gun pressures - 8, 9, 10.2 and 12.4 psi. Strain gauges attached to both the incident and transmitted bars were used to detect the incident, reflected and transmitted waves in the bar. The strain gauges were located 1.219 m from the loading point on the incident bar and 0.965 m from the loading point on the transmitted bar. Voltage outputs from the strain gauges were collected using a Tektronix DPO 2004B oscilloscope. All analysis was completed in MATLAB.   
 

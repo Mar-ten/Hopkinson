@@ -171,12 +171,12 @@ sigma = strength;
 % random number generator for 0-8 MPa (50 results)
 
 % Central Tendency:
-sigma_bar = mean(sigma);  % mean
-sigma_med = median(sigma);  % median
+sigma_bar = mean(sigma)  % mean
+sigma_med = median(sigma)  % median
 
 % Dispersion:
-sigma_std = std(sigma);   % standard deviation
-sigma_var = var(sigma);   % variance
+sigma_std = std(sigma)   % standard deviation
+sigma_var = var(sigma)   % variance
 
 % Weibull
 sigma_dist = wblfit(sigma);
