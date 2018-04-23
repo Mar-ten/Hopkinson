@@ -103,14 +103,14 @@ In this report, a SHPB is used to investigate the high rate tensile behavior of 
 
 \subsubsection {Split Hopkinson Pressure Bar} % Nick
 %Gas gun, bar, location, etc
-The Split Hopkinson Pressure Bar (SHPB) system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in figure (bar alignment cartoon). A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar (Frew 2001). Upon reaching a test specimen placed at the end of the bar as in figure (overall setup), the specimen is deformed at a very high strain rate by the compressive wave. This deformation is captured by a new wave propogated into the transmitted bar. Additionally, a portion of the incident wave is reflected back along the incident bar; after changing directions it also changes sign and becomes a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
+The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in figure (bar alignment cartoon). A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar (Frew 2001). Upon reaching a test specimen placed at the end of the bar as in figure (overall setup), the specimen is deformed at a very high strain rate by the compression wave. This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. Additionally, the remainder of the energy from the incident wave is reflected back along the incident bar; after changing directions it changes sign and becomes a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
 \\ \\
 For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogenous, isotropic material. Furthermore, the bars must be uniform in cross section, which is acheived through centerless grinding. Finally, initial impact must not exceed the yeild strength of the bar else plasticity would distort the data. It is also assumed that the stress distribution over the cross section of the bar must be uniform. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still usable. 
 \\ \\
 One of the limitations of a SHPB system is that with finite bars, dispersion effects must be considered due to variations in the speed different frequencies travel within a medium. Two means are commonly used to compensate for these. The first is the use of pulse shaping. When pulse shaping, a sacrificial material is placed between the striker bar and the incident bar. An ideal pulse shaper softens the rise of incident pulse so that it more closely resembles that of the material being tested. By doing this, the frequency content of the system is lessened and it can be assumed that only a single frequency exists in the pulse. The second means of compensating for dispersion is through the use of post processing. It must be remembered that the measurements are taken by strain gauges in the center of each bar to ensure that a clean signal can be measured as well as to ensure that the incident and reflected waves are separately recorded. To then march these waveforms forward or backward in time to represent the conditions upon specimen failure, the Fourier series
 
 \begin{equation}
-F(n\Delta T) = \frac{A_0}{2} + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi) + B_k sin(k\omega_0 n\Delta T - \phi)]
+F(n\Delta T) = \frac{A_0}{2} + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi_(TS)) + B_k sin(k\omega_0 n\Delta T - \phi_(TS))]
 \end{equation}
 
 is used, where 
@@ -120,7 +120,7 @@ is used, where
 \end{equation} ,
 
 \begin{equation}
-A_0 = \frac{2}{T} \int_0^T \! f(x) dt
+A_0 = \frac{2}{T} \int_0^T \! f(x) \, dt
 \end{equation} ,
 
 \begin{equation}
@@ -151,7 +151,7 @@ From force equilibrium, both of these force values should be the same. Finally, 
 \sigma_t = \frac{2P}{\pi Dt}
 \end{equation}
 
-where $P$ is the force applied by one side of the bar, $t$ is the specimen thickness, and $D$ is the specimen diameter. Through the application of forces on the specimen geometry, the compressive wave from the SHPB will produce a tensile loading to fail the specimen.
+where $P$ is the force applied by one side of the bar, $t$ is the specimen thickness, and $D$ is the specimen diameter. Through the application of forces on the specimen geometry, the compression wave from the SHPB will produce a tensile loading to fail the specimen.
 
 \subsubsection{High Strain Rate Data Acquisition} % Nick
 %Strain gauges, scope
