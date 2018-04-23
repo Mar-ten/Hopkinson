@@ -166,10 +166,9 @@ end
 
 %% Experiment 3 - Statistical Analysis
 
-sigma = strength; 
-% This will be the input from NIck's function, right now I am just using a
-% random number generator for 0-8 MPa (50 results)
-
+sigma = [strength(1:10) strength(12:30) strength(33:38)];
+% excluded sample 11, 31, 32, and 39-46 due to sampling and incomplete wave
+% forms
 % Central Tendency:
 sigma_bar = mean(sigma)  % mean
 sigma_med = median(sigma)  % median
@@ -180,11 +179,21 @@ sigma_var = var(sigma)   % variance
 
 % Weibull
 sigma_dist = wblfit(sigma);
-
-a = sigma_dist(1);
-b = sigma_dist(2);
+x_o = min(sigma)
+b = sigma_dist(1)
+m = sigma_dist(2)
 
 figure(2)
 wblplot(sigma)
-xlabel('log(\sigma_T)')
-title('Weibull Probability of Concrete Tensile Strength')
+xlabel('log(\sigma_t)')
+title('Weibull Probability Dynamic Tensile Strength of Concrete')
+
+%% Pressure vs Strength
+
+P = [10.2, 10.2, 9, 9, 8, 8, 12.4, 12.4, 11.5, 11.9, 11.6, 12.4, 8.2, 8.1, 12, 12, 9.7, 8.4, 8.3, 11.1, 8.1, 8.2, 8.1, 8, 8.3, 8.3, 8.3, 8.3, 8.2, 8.4, 8.6, 8.6, 8.6, 8.6, 10.1];
+
+figure(3)
+plot(P,sigma,'x')
+xlabel('Gas Gun Pressure, [psi]')
+ylabel('\sigma_t,[MPa]')
+title('Gas Gun Pressure vs Dyanmic Tensile Strength') 
