@@ -1,5 +1,12 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Hopkinson.aux
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Hopkinson.aux
 The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Lab3Bib.bib
 Warning--I didn't find a database entry for "Dai"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
@@ -9,4 +16,45 @@ Warning--missing publisher in Shukla
 Warning--empty year in Shukla
 
 Done.
+You've used 10 entries,
+            4087 wiz_defined-function locations,
+            883 strings with 8727 characters,
+and the built_in function-call counts, 4876 in all, are:
+= -- 384
+> -- 82
+< -- 23
++ -- 46
+- -- 16
+* -- 211
+:= -- 853
+add.period$ -- 19
+call.type$ -- 10
+change.case$ -- 9
+chr.to.int$ -- 51
+cite$ -- 12
+duplicate$ -- 393
+empty$ -- 441
+format.name$ -- 17
+if$ -- 1100
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 62
+newline$ -- 53
+num.names$ -- 10
+pop$ -- 151
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 384
+stack$ -- 0
+substring$ -- 126
+swap$ -- 250
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 10
+warning$ -- 2
+while$ -- 19
+width$ -- 12
+write$ -- 106
 (There were 3 warnings)
