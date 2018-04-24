@@ -81,7 +81,7 @@
 % git testing ii
 
 \begin{document}
-\title{ Determination of Dynamic Tensile Strength of Concrete Brazil Disc Specimens Using a Split Hopkinson Pressure Bar  \\ \normalsize{ME EN 6960}}
+\title{ Determination of Dynamic Tensile Strength of Concrete Using a Split Hopkinson Pressure Bar  \\ \normalsize{ME EN 6960}}
 \author{Nik Benko, John Callaway, Nick Dorsett, Martin Raming}
 \maketitle
 
@@ -91,13 +91,13 @@
 \end{abstract}
 
 \section{Introduction} % Nik
-Accurate predictions of material failure are critical to the design of structures and mechanical devices. In order to make useful predictions of failure, materials test conditions must replicate real-world loading scenarios as closely as possible. Standard material tests use application-specific test fixtures and specimen geometries to approximate the expected stress state i.e. tension, compression, shear, or combined loading. An additional, and often overlooked, aspect of the loading condition is the rate at which loads are applied. Many structures and devices are designed to be impacted at high enough speeds that the constitutive response of materials is significantly different from the material's quasi-static behavior. In these applications it is important to quantify a material’s failure properties at high rates in order to determine if the use of the material is appropriate.  \\
+Accurate predictions of material failure are critical to the design of structures and mechanical devices. In order to make useful predictions of failure, material test conditions must replicate real-world loading scenarios as closely as possible. Standard material tests use application-specific test fixtures and specimen geometries to approximate the expected stress state i.e. tension, compression, shear, or combined loading. An additional, and often overlooked, aspect of the loading condition is the rate at which loads are applied. Many structures and devices are designed to be impacted at high enough speeds that the constitutive response of materials is significantly different from the material's quasi-static behavior. In these applications it is important to quantify a material's failure properties at high strain rates in order to determine if the use of the material is appropriate.  \\
 
-In this report the high rate tensile behavior of concrete is investigated. Concrete is a very common material used in large structures such as buildings, bridges, and roadways, all of which may be subject to high rate loading. The compressive and tensile strengths of concrete have been shown to increase at high strain rates. The relationship between strain rate and compressive strength is relatively well established, while only few studies have investigated how the tensile strength of concrete changes with loading rate \cite{Jin2017}. A thorough  understanding of this relationship may be able to further optimize structural design when high rate loading is expected. In order to load the brittle concrete samples in tension, a Flat Brazil Disk specimen is used.\\ 
+In this report the high strain rate tensile behavior of concrete is investigated. Concrete is a very common material used in large structures such as buildings, bridges, and roadways, all of which may be subject to high strain rate loading. The compressive and tensile strengths of concrete have been shown to increase at high strain rates. The relationship between strain rate and compressive strength is relatively well established, while only few studies have investigated how the tensile strength of concrete changes with loading rate \cite{Jin2017}. A thorough understanding of this relationship may be able to further optimize structural design when high rate loading is expected. In order to load the brittle concrete samples in tension, a Flat Brazil Disc specimen is used.\\ 
 
-A major challenge in high rate material testing is accounting for the inertial effects of a rapidly moving loading apparatus. To overcome this challenge, Kolsky adapted a pressure bar technique originally used by Hopkinson, to strike thin material specimens at high speeds\cite{Kolsky}. The long and thin bars of a Split-Hopokinson Pressure Bar (SHPB), combined with a thin material specimen, allow strain measurements from the bars to be analyzed with 1 dimensional wave analysis. This simplification of 3D mechanics down to a single dimension allows for the inertia of the striker bar to be accounted for.\\
+A major challenge in dynamic material testing is accounting for the inertial effects of a rapidly moving loading apparatus. To overcome this challenge, Kolsky adapted a pressure bar technique originally used by Hopkinson to strike thin material specimens at high speeds\cite{Kolsky}. The long and thin bars of a Split-Hopkinson Pressure Bar (SHPB), combined with a thin material specimen, allow strain measurements from the bars to be analyzed with one dimensional wave analysis. This simplification of three dimensional mechanics down to a single dimension allows for the inertia of the striker bar to be accounted for.\\
 
-An unaltered SHPB generates nearly rectangular pulses, with sharp leading and trailing edges. This results in high frequency content in the incident pressure wave that creates inaccuracies in strain measurements and may be undesirable for certain material types. The two most common ways of addressing this issue is the use of pulse shaping, as proposed by Frew et al., and dispersion correction, demonstrated by Follansbee \cite{Frew2002} \cite{Follansbee}. Both methods were used in this investigation. In this report, the experimental apparatus, test protocol, data reduction, and data analysis methods are described in the methods section. A summary of the measured and reduced data is listed in the results section. The relation of these findings to the current literature are then discussed, and final conclusions are drawn. \\
+An unaltered SHPB generates trapezoidal pulses, with sharp leading and trailing edges. This results in high frequency content in the incident pressure wave that creates inaccuracies in strain measurements and may be undesirable for certain material types. The two most common ways of addressing this issue is the use of pulse shaping, as proposed by Frew et al., and dispersion correction, demonstrated by Follansbee \cite{Frew2002} \cite{Follansbee}. Both methods were used in this investigation. In this report, the experimental apparatus, test protocol, data reduction, and data analysis methods are described in the methods section. A summary of the measured and reduced data is listed in the results section. The relation of these findings to the current literature are then discussed, and final conclusions are drawn. \\
 
 
 
@@ -107,49 +107,36 @@ An unaltered SHPB generates nearly rectangular pulses, with sharp leading and tr
 
 \subsubsection {Split Hopkinson Pressure Bar} % Nick
 %Gas gun, bar, location, etc
-The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in figure (bar alignment cartoon) \cite{Follansbee} \cite{Frew} \cite{Frew2002}. A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar \cite{Frew}. Upon reaching a test specimen placed at the end of the bar as in figure \ref{fig:TestSetup}, the specimen is deformed at a very high strain rate by the compression wave. \cite{Dai} This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. Additionally, the remainder of the energy from the incident wave is reflected back along the incident bar; after changing directions it changes sign and becomes a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
+The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in Figure (bar alignment cartoon) \cite{Frew2002} \cite{Follansbee} \cite{Frew}. A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar \cite{Frew}. Upon reaching a test specimen placed at the end of the bar as in Figure \ref{fig:TestSetup}, the specimen is deformed at a very high strain rate by the compression wave \cite{Dai}. This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. The remainder of the energy from the incident wave is reflected back along the incident bar as a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
 \\ \\
-For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogenous, isotropic material. Furthermore, the bars must be uniform in cross section, which is acheived through centerless grinding. Finally, initial impact must not exceed the yeild strength of the bar else plasticity would distort the data. It is also assumed that the stress distribution over the cross section of the bar must be uniform. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still usable. 
+For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogeneous, isotropic material. Furthermore, the bars must be uniform in cross section, which is achieved through centerless grinding. Finally, initial impact must be kept low enough so that the elastic limit of the bar is not reached. It is also assumed that the stress distribution over the cross section of the bar must be uniform. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still acceptable. 
 \\ \\
-One of the limitations of a SHPB system is that with finite bars, dispersion effects must be considered due to variations in the speed different frequencies travel within a medium. Two means are commonly used to compensate for these. The first is the use of pulse shaping. When pulse shaping, a sacrificial material is placed between the striker bar and the incident bar. An ideal pulse shaper softens the rise of incident pulse so that it more closely resembles that of the material being tested. By doing this, the frequency content of the system is lessened and it can be assumed that only a single frequency exists in the pulse. The second means of compensating for dispersion is through the use of post processing. It must be remembered that the measurements are taken by strain gauges in the center of each bar to ensure that a clean signal can be measured as well as to ensure that the incident and reflected waves are separately recorded. To then march these waveforms forward or backward in time to represent the conditions upon specimen failure, the Fourier series
+One of the limitations of a SHPB system is that with finite bars, dispersion effects must be considered due to variations in the speed different frequencies travel within a medium. Two methods are commonly used to compensate for dispersion. The first is the use of pulse shaping. Pulse shaping uses a sacrificial material placed between the striker bar and the incident bar. An ideal pulse shaper reduces the initial slope of the incident pulse so that it more closely resembles the specimen material response. By doing this, the high frequency content of the system is decreased and it can be assumed that only a few frequencies dominate the pulse. The second method of compensating for dispersion is through the use of post processing dispersion correction. Measurements are taken by strain gauges in the center of each bar to ensure that the incident and reflected waves are separately recorded. To then march these waveforms forward or backward in time to represent the conditions upon specimen failure, the Fourier series
 
 \begin{equation}
-F(n\Delta T) = \frac{A_0}{2} + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi_(TS)) + B_k sin(k\omega_0 n\Delta T - \phi_(TS))]
+F(n\Delta T) = \frac{A_0}{2} + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi_{TS}) + B_k sin(k\omega_0 n\Delta T - \phi_{TS})]
 \end{equation}
-
 is used, where 
+\begin{align*}
+\phi_{TS} =& k\omega_0(\Delta x/C_k) \\
+A_0 =& \frac{2}{T} \int_0^T \! f(x) \, dt\\
+A_k =& \frac{2}{T} \int_0^T \! f(t)cos(k\omega_0t) \, dt\\
+B_k =& \frac{2}{T} \int_0^T \! f(t)sin(k\omega_0t) \, dt
+\end{align*}
+
+Here, $T$ is the period of the wave, $\omega_0$ is the fundamental frequency $\frac{2\pi}{T}$, $n$ = 1,2,...2$N$, where $N$ = half the number of recorded data points, $C_k$ is the speed of a wave at the $kth$ frequency, $\Delta T$ is the time step between recording intervals, and $\Delta x$ is the distance from the strain gauge to the specimen\cite{Gama}. Once the waves have been propagated so they are at the same point in time, the strain gauge readings can be translated into strain and force values can be determined. Force on the left side of the bar is found through the equation 
 
 \begin{equation}
-\phi_{TS} = k\omega_0(\Delta x/C_k)
-\end{equation} ,
-
-\begin{equation}
-A_0 = \frac{2}{T} \int_0^T \! f(x) \, dt
-\end{equation} ,
-
-\begin{equation}
-A_k = \frac{2}{T} \int_0^T \! f(t)cos(k\omega_0t) \, dt
-\end{equation} ,
-
-and
-
-\begin{equation}
-B_k = \frac{2}{T} \int_0^T \! f(t)sin(k\omega_0t) \, dt
-\end{equation}  \cite{Gama}.
-
-Within these, $T$ is the period of the wave, $\omega_0$ is the fundamental frequency, $n$ = 1,2,...2$N$, where $N$ = half the number of recorded data points, $C_k$ is the speed of a wave at the $kth$ frequency, $\Delta T$ is the time step between recording intervals, and $\Delta x$ is the distance the wave is being transformed i.e. the distance from the strain gauges to the specimen. Once the waves have been transformed so they are at the same point in time, the strain gauge readings can be transformed into voltages and force values can be determined. Force on the left side of the bar is found through the equation 
-
-\begin{equation}
-F_1 = A_{Bar}E_{Bar}(\epsilon_I + \epsilon_R)
+F_1 = A_{Bar}E_{Bar}(\varepsilon_I + \varepsilon_R)
 \end{equation}
 
 and similarly, force on the right side of the bar is
 
 \begin{equation}
-F_2 = A_{Bar}E_{Bar}(\epsilon_T)
+F_2 = A_{Bar}E_{Bar}(\varepsilon_T)
 \end{equation}.
 
-From force equilibrium, both of these force values should be the same. Finally, from ASTM D3957-08 (cite standard) the tensile strength of the Brazil disc specimens is found from
+where $A_{Bar}$ is the area of the SHPB, $E_{Bar}$ is the elastic modulus of the SHPB, $\varepsilon_I$, $\varepsilon_T$ and $\varepsilon_R$ are the incident, transmitted and reflected strains. From force equilibrium, both of these force values should be the same. Finally, from ASTM D3957-08 (cite standard) the tensile strength of the Brazil disc specimens is found from
 
 \begin{equation}
 \sigma_t = \frac{2P}{\pi Dt}
