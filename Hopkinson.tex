@@ -136,7 +136,7 @@ and similarly, force on the right side of the bar is
 F_2 = A_{Bar}E_{Bar}(\varepsilon_T)
 \end{equation}.
 
-where $A_{Bar}$ is the area of the SHPB, $E_{Bar}$ is the elastic modulus of the SHPB, $\varepsilon_I$, $\varepsilon_T$ and $\varepsilon_R$ are the incident, transmitted and reflected strains. From force equilibrium, both of these force values should be the same. Finally, from ASTM D3957-08 (cite standard) the tensile strength of the Brazil disc specimens is found from
+where $A_{Bar}$ is the area of the SHPB, $E_{Bar}$ is the elastic modulus of the SHPB, $\varepsilon_I$, $\varepsilon_R$, and $\varepsilon_T$ are the incident, reflected and transmitted strains respectively. From equilibrium both of these force values should be equal . Finally, from ASTM D3957-08 (cite standard) the tensile strength of the Brazil Disc specimens is found from
 
 \begin{equation}
 \sigma_t = \frac{2P}{\pi Dt}
@@ -147,10 +147,10 @@ where $P$ is the force applied by one side of the bar, $t$ is the specimen thick
 
 \subsubsection{High Strain Rate Data Acquisition} % Nick
 %Strain gauges, scope
-Data for the SHPB is recorded through strain gauges adhered to the center of each bar. These gauges are arranged in a full bride configuration which only measures deformations in the axial direction. This further helps satisfy the theoretical requirement for axial wave propagation because due to the difficulty in perfectly aligning the bars, other minute deformations may exist.
+Data for the SHPB is recorded through strain gauges adhered to the center of each bar. These gauges are arranged in a full bridge configuration which only measures deformations in the axial direction. This further helps satisfy the theoretical requirement for axial wave propagation because due to the difficulty in perfectly aligning the bars, other minute deformations may exist.
 \\ \\
 %Data was recorded through the use of a Dewetron (citation) data acquision system (DAQ). A very high sampling rate is desirable for the purposes of this experiment to get the 
-In order to avoid aliasing a sample frequency equal to or greater than the Nyquist frequency ($f_N$) must be used \cite{Shukla} \cite{Sampling}. The Nyquist frequency is simply double the highest frequency component of the measured signal. Since high strain rates, as seen in the SHPB, result in high frequency components a very high sample rate is required. 
+In order to avoid aliasing a sample frequency equal to or greater than the Nyquist frequency ($f_N$) must be used \cite{Sampling}. The Nyquist frequency is simply double the highest frequency component of the measured signal. Since high strain rates, as seen in the SHPB, result in high frequency components a very high sample rate is required. 
 
 \subsubsection{Statistical Analysis} % John
 
@@ -166,7 +166,7 @@ S_{x} = \left[\sum_{i=1}^{n}\frac{\left(x_{i}-\bar{x}\right)^2}{n-1}\right]^\fra
 S_{x}^2 = \sum_{i=1}^{n}\frac{\left(x_{i}-\bar{x}\right)^2}{n-1}
 \end{equation} 
 where $S_{x}$ is the standard deviation and $S_{x}^2$ is the variance.
-
+\\ \\
 For experiments involving strength of materials due to brittle fracture, a Weibull distribution function can be applied to show the probability of failure at a given strength value \cite{Shukla}. The Weibull Distribution is given by
 \begin{equation}
 p(x) = 1-e^{-\left[\frac{\left(x-x_{o}\right)}{b}\right]^m} \text{ for } x > x_{o}
@@ -178,21 +178,20 @@ where $p(x)$ is the probability of failure occurring at $x$, $x_{o}$ is the zero
 
 \subsection{Procedure} % John
 
-Concrete Brazil Disc specimens with a diameter of 19.05 mm and thickness of 6.35 mm were loaded in a SHPB test setup. The SHPB utilized 19.05 mm diameter aluminum 7075-T6 bars for the incident and transmitted bars. The incident bar length was 2.438 m and the transmitted bar length was 1.930 m. Aluminum platens with a matching acoustic impedance were attached to the loading end of the incident and transmitted bars to prevent damage to the SHPB apparatus from the concrete specimens. A 1.058 mm thick, 9.525 mm diameter lead pulse shaper was placed on the non-loading end of the incident bar for each test. The striker bar was propelled using a REL gas gun. The experimental setup can be seen in Figure \ref{fig:TestSetup}.
+Concrete Brazil Disc specimens with a diameter of 19.05 mm and thickness of 6.35 mm were loaded in a SHPB. The SHPB utilized 19.05 mm diameter aluminum 7075-T6 bars for the incident and transmitted bars. The incident bar length was 2.438 m and the transmitted bar length was 1.930 m. Aluminum platens with a matching acoustic impedance were attached to the loading end of the incident and transmitted bars to prevent damage to the SHPB from the concrete specimens. A 1.058 mm thick, 9.525 mm diameter lead pulse shaper was placed on the non-loading end of the incident bar for each test. The striker bar was propelled using a custom gas gun. The experimental setup can be seen in Figure \ref{fig:TestSetup}.
 \\ \\
-Initial calibration and bar wave speed were determined without specimens using a gas gun pressure of 10.2 psi. A total of ten specimens were tested at four separate gas gun pressures - 8, 9, 10.2 and 12.4 psi. Strain gauges attached to both the incident and transmitted bars were used to detect the incident, reflected and transmitted waves in the bar. The strain gauges were located 1.219 m from the loading point on the incident bar and 0.965 m from the loading point on the transmitted bar. Voltage outputs from the strain gauges were collected using a Tektronix DPO 2004B oscilloscope. All analysis was completed in MATLAB.   
+Initial calibration was conducted to determine a bar wave speed using a gas gun pressure of 10.2 psi. Specimens were tested at varying gas gun pressures, ranging from 8 to 12.5 psi. Strain gauges were located 1.219 m from the loading point on the incident bar and 0.965 m from the loading point on the transmitted bar. Voltage outputs from the strain gauges were collected using a Tektronix DPO 2004B oscilloscope.   
 
 \subsection{Error and Uncertainties} % Nick 
 
-The main source of uncertanty in the experiment was in the data analysis. It has been shown that the data is very sensitive to the exact value of $C_0$ as well as in shifting the pulse through time \cite{Gama}. In our data analysis, the wave speed was determined from a calibration experiment. However, force equilibrium was not satisfied, likely due to errors in shifting the incident and/or reflected waves.
+The main source of uncertainty in the experiment was in the data analysis. It has been shown that the data is very sensitive to the exact value of $C_0$ as well as in shifting the pulse through time \cite{Gama}. In our data analysis, the wave speed was determined from a calibration experiment. However, force equilibrium was not satisfied, likely due to errors in shifting the incident and/or reflected waves.
 %this is the only even remotely quantificable source of error I could think of
 
-\section{Results} % John
+\section{Results and Discussion} % John
 
 Thirty five concrete Brazil Disc specimens produced a mean dynamic tensile strength of 15.77 MPa, with a median of 15.18 MPa and standard deviation of 3.60 MPa. The data was found to fit a Weibull distribution with $x_{o}$ = 7.84 MPa, $b$ = 17.18 MPa and $m$ = 4.9951. A Weibull Probability Distribution Function plot was create to verify the Weibull distribution parameters and is presented in Figure \ref{fig:Weibull}. A comparison of the gas gun pressure and dynamic tensile strength of concrete showed no relationship, which is visualized in Figure \ref{fig:GasGun}.
 
-\section{Discussion} % Martin
-Inorder to calculate $\sigma_t$ in Equation \ref{eq:stres} we assumed force homogenization, therefor only $F_2$ was used. The results of these calculations show a higher ultimate tensile strength than that of quasi-static experiments. This observation of strain rate dependence is consistent with work done by others, such as D.L. Grote et al. \cite{Grote}. Although this experiment did not find a relationship of gas gun pressure to ultimate tensile strengths it would seem there is a relationship  between strain rate and ultimate tensile strength. This could be due gas gun pressure effects on strain rate being undetermined. 
+In order to calculate $\sigma_t$ in Equation \ref{eq:stres} we assumed force homogenization, therefor only $F_2$ was used. The results of these calculations show a higher ultimate tensile strength than that of quasi-static experiments. This observation of strain rate dependence is consistent with work done by others, such as D.L. Grote et al. \cite{Grote}. Although this experiment did not find a relationship of gas gun pressure to ultimate tensile strengths it would seem there is a relationship  between strain rate and ultimate tensile strength. This could be due gas gun pressure effects on strain rate being undetermined. 
 \\
 \\
 The pulse shaper as mentioned previously was chosen based on the lower rise of the generated pulse when compared to pulses created using other pulse shapers as shown in Figure \ref{fig:pulseshaper}. By using a pulse shaper a value of 50 was used for $N$ instead of $f_N$ as suggested by Li and Lambros \cite{Li} to aid in computation time with out loss of accuracy.
@@ -240,7 +239,7 @@ T
 	\label{fig:pulseshaper}
 \end{figure}
 
-\section{Tables}
+%\section{Tables}
 %Recoded Experimental Data:
 %\begin{table}[h]\footnotesize
 %	\centering
