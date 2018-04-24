@@ -53,12 +53,18 @@ K.~X. Z.~T. F.~Dai, S.~Huang, ``Some fundemental issuesin dynamic compresion
 J.~W. G.~J. Bazle A.~Gama, Sergey L.~Lopatnikov, ``Hopkinson bar experimental
   technique: A critical review,'' \emph{Applied Mechanics}, 2004.
 
-\bibitem{Shukla}
-J.~W.~D. Arun~Shukla, \emph{Experimental Solid Mechanics}.
-
 \bibitem{Sampling}
 H.~J. Landau, ``Sampling, data transminsion, and the nyquist rate,''
   \emph{IEEE}, 1967.
+
+\bibitem{Shukla}
+J.~W.~D. Arun~Shukla, \emph{Experimental Solid Mechanics}.
+
+\bibitem{MATLAB}
+M.~Inc, ``Matlab and statistics toolbox release 2016b.''
+
+\bibitem{Concrete}
+D.~M. S~U~Pillai, \emph{Reinforced Concrete Design, Third Edition}.
 
 \bibitem{Grote}
 M.~Z. D.L.~Grote, S.W.~Park, ``Dynamic behavior of concreate at high strain

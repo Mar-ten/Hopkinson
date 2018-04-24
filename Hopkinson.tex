@@ -174,7 +174,7 @@ p(x) = 1-e^{-\left[\frac{\left(x-x_{o}\right)}{b}\right]^m} \text{ for } x > x_{
 \begin{equation}
 p(x) = 0  \text { for } x < x_{o}
 \end{equation} 
-where $p(x)$ is the probability of failure occurring at $x$, $x_{o}$ is the zero strength value of the distribution, $b$ is scale parameter and $m$ is the Weibull slope parameter. The values of distribution parameters $x_{o}$, $b$ and $m$ can be determined iteratively or by use of a commercial software such as MATLAB. MATLAB has a built in function, $wblfit$. that generates the Weibull parameters and probability distribution function with a 95\% confidence interval (ref).
+where $p(x)$ is the probability of failure occurring at $x$, $x_{o}$ is the zero strength value of the distribution, $b$ is scale parameter and $m$ is the Weibull slope parameter. The values of distribution parameters $x_{o}$, $b$ and $m$ can be determined iteratively or by use of a commercial software such as MATLAB. MATLAB has a built in function, $wblfit$. that generates the Weibull parameters and probability distribution function with a 95\% confidence interval \cite{MATLAB}.
 
 \subsection{Procedure} % John
 
@@ -189,19 +189,11 @@ The main source of uncertainty in the experiment was in the data analysis. It ha
 
 \section{Results and Discussion} % John
 
-Thirty five concrete Brazil Disc specimens produced a mean dynamic tensile strength of 15.77 MPa, with a median of 15.18 MPa and standard deviation of 3.60 MPa. The data was found to fit a Weibull distribution with $x_{o}$ = 7.84 MPa, $b$ = 17.18 MPa and $m$ = 4.9951. A Weibull Probability Distribution Function plot was create to verify the Weibull distribution parameters and is presented in Figure \ref{fig:Weibull}. A comparison of the gas gun pressure and dynamic tensile strength of concrete showed no relationship, which is visualized in Figure \ref{fig:GasGun}.
-
-In order to calculate $\sigma_t$ in Equation \ref{eq:stres} we assumed force homogenization, therefor only $F_2$ was used. The results of these calculations show a higher ultimate tensile strength than that of quasi-static experiments. This observation of strain rate dependence is consistent with work done by others, such as D.L. Grote et al. \cite{Grote}. Although this experiment did not find a relationship of gas gun pressure to ultimate tensile strengths it would seem there is a relationship  between strain rate and ultimate tensile strength. This could be due gas gun pressure effects on strain rate being undetermined. 
-\\
-\\
+The calculation of dynamic tensile strength assumed force homogenization, therefore only the transmitted wave strain was used. Thirty five concrete Brazil Disc specimens produced a mean dynamic tensile strength of 15.77 MPa, with a median of 15.18 MPa and standard deviation of 3.60 MPa. Additional data was excluded based on incomplete wave forms captured during the experiment. 
+\\ \\
+The dynamic tensile strength was found to fit previous experimental findings and was significantly larger than the quasi-static tensile strength \cite{Jin2017}. Published values for the quasi-static tensile strength of concrete range from 2.2 to 4.2 MPa \cite{Concrete}. This matches previous findings that the tensile strength of concrete increases with increased strain rate \cite{Jin2017} \cite{Grote}. Additionally, the data was also found to fit a Weibull distribution with $x_{o}$ = 7.84 MPa, $b$ = 17.18 MPa and $m$ = 4.9951. A Weibull Probability Distribution Function plot was created to verify the Weibull distribution parameters and is presented in Figure \ref{fig:Weibull}. A comparison of the gas gun pressure and dynamic tensile strength of concrete showed no relationship, which is visualized in Figure \ref{fig:GasGun}.  
+\\ \\
 The pulse shaper as mentioned previously was chosen based on the lower rise of the generated pulse when compared to pulses created using other pulse shapers as shown in Figure \ref{fig:pulseshaper}. By using a pulse shaper a value of 50 was used for $N$ instead of $f_N$ as suggested by Li and Lambros \cite{Li} to aid in computation time with out loss of accuracy.
-\\
-\\
-When performing a statistical analysis not all data was used.  The date chosen for removal was based around the code used for data reduction utilizes the initial rise to mark the point at which to begin analysis..  Samples 11, 31, and 32 were left out of the analysis as these samples were missing data for the initial rise of the pulse on the incident bar and   Samples 39-46 were also removed for similar reasons.  Instead of an incomplete data set these samples have multiple waves beyond the  reflected incident wave.
-\\
-\\
-T
-
 
 \section{Conclusion} % Nik
 
