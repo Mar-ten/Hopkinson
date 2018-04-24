@@ -48,10 +48,10 @@ plot(time(:,1),v_incident(:,1),'-','Color',color(1,:))
 plot(time(:,4),v_incident(:,4),'-','Color',color(4,:))
 
 legend({'Calibration','Pulse Shaped'})
-xlabel('Time [s]')
-ylabel('Voltage [v]')
+xlabel('Time (s)')
+ylabel('Voltage (v)')
 title('Calibration and Pulse Shaped Traces')
-set(gca,'FontSize',14)
+set(gca,'FontSize',16)
 xlim([min(time(:,1)),max(time(:,1))])
 %% Wave data analysis
 
@@ -210,7 +210,7 @@ title('Weibull Probability Dynamic Tensile Strength of Concrete')
 P = [10.2, 10.2, 9, 9, 8, 8, 12.4, 12.4, 11.5, 11.9, 11.6, 12.4, 8.2, 8.1, 12, 12, 9.7, 8.4, 8.3, 11.1, 8.1, 8.2, 8.1, 8, 8.3, 8.3, 8.3, 8.3, 8.2, 8.4, 8.6, 8.6, 8.6, 8.6, 10.1];
 
 figure(3)
-plot(P,sigma/1E7,'x')
+plot(P,sigma,'x')
 xlabel('Gas Gun Pressure [psi]')
 ylabel('\sigma_t [MPa]')
 title('Gas Gun Pressure vs Dyanmic Tensile Strength') 
