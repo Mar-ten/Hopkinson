@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  23 APR 2018 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  23 APR 2018 21:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,6 +704,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 111.
+
 [2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -711,12 +714,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 124.
+
 [3]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 153.
 
 [4]
 
@@ -736,7 +745,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 173.
+
 [5]
+
+LaTeX Warning: Reference `fig:TestSetup' on page 6 undefined on input line 190.
+
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
@@ -747,19 +764,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 193.
+
 [6]
+
+LaTeX Warning: Reference `fig:Weibull' on page 7 undefined on input line 198.
+
+
+LaTeX Warning: Reference `fig:GasGun' on page 7 undefined on input line 198.
+
+
+LaTeX Warning: Reference `eq:stres' on page 7 undefined on input line 201.
+
 
 LaTeX Warning: Citation `Grote' on page 7 undefined on input line 201.
 
 
-LaTeX Warning: Reference `fig:PulseShaper' on page 7 undefined on input line 20
+LaTeX Warning: Reference `fig:pulseshaper' on page 7 undefined on input line 20
 4.
 
 
 LaTeX Warning: Citation `Li' on page 7 undefined on input line 204.
-
-
-LaTeX Warning: Reference `eq:stres' on page 7 undefined on input line 210.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 201--211
@@ -782,8 +808,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 211.
+
 [7]
-<TestSetUp.png, id=126, 1927.2pt x 1084.05pt>
+<TestSetUp.png, id=71, 1927.2pt x 1084.05pt>
 File: TestSetUp.png Graphic file (type png)
 <use TestSetUp.png>
 Package pdftex.def Info: TestSetUp.png  used on input line 223.
@@ -795,8 +824,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 227.
+
 [8]
-<Weibull.png, id=133, 421.575pt x 316.18124pt>
+<Weibull.png, id=77, 421.575pt x 316.18124pt>
 File: Weibull.png Graphic file (type png)
 <use Weibull.png>
 Package pdftex.def Info: Weibull.png  used on input line 230.
@@ -808,17 +840,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 234.
+
 [9 <./TestSetUp.png>]
-<Pressure_TensileStrength.png, id=140, 421.575pt x 316.18124pt>
+<Pressure_TensileStrength.png, id=86, 421.575pt x 316.18124pt>
 File: Pressure_TensileStrength.png Graphic file (type png)
 <use Pressure_TensileStrength.png>
 Package pdftex.def Info: Pressure_TensileStrength.png  used on input line 237.
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
- (./Hopkinson.bbl
+<pulseshaper.png, id=87, 2240.37pt x 868.24374pt>
+File: pulseshaper.png Graphic file (type png)
+<use pulseshaper.png>
+Package pdftex.def Info: pulseshaper.png  used on input line 244.
+(pdftex.def)             Requested size: 363.15576pt x 140.73685pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 248.
+
+[10 <./Weibull.png (PNG copy)> <./Pressure_TensileStrength.png (PNG copy)>]
+(./Hopkinson.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) 
+)
+
+Package lastpage Warning: Rerun to get the references right on input line 291.
+
+
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -826,42 +881,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./Weibull.png (PNG copy)> <./Pressure_TensileStrength.png (PNG copy)>]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 291.
 
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+[11 <./pulseshaper.png (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
  (./Hopkinson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
-Package rerunfilecheck Info: File `Hopkinson.out' has not changed.
-(rerunfilecheck)             Checksum: 08E3AD0CB182045BC2A0EC3F88CB6A88;768.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 
+
+Package rerunfilecheck Warning: File `Hopkinson.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Hopkinson.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  08E3AD0CB182045BC2A0EC3F88CB6A88;768.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 79 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12770 strings out of 492982
- 195344 string characters out of 6132527
- 360554 words of memory out of 5000000
- 16014 multiletter control sequences out of 15000+600000
- 16135 words of font info for 91 fonts, out of 8000000 for 9000
+ 12769 strings out of 492982
+ 195329 string characters out of 6132527
+ 360223 words of memory out of 5000000
+ 16005 multiletter control sequences out of 15000+600000
+ 16282 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,43p,1090b,1411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,43p,1090b,1415s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
@@ -876,10 +933,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Hopkinson.pdf (11 pages, 1442037 bytes).
+Output written on Hopkinson.pdf (11 pages, 1474738 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 14968 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 14869 words of extra memory for PDF output out of 17280 (max. 10000000)
 
