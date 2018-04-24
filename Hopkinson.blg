@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Hopkinson.aux
 The style file: IEEEtran.bst
 Database file #1: Lab3Bib.bib
+Warning--I didn't find a database entry for "Dai"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -8,4 +9,4 @@ Warning--missing publisher in Shukla
 Warning--empty year in Shukla
 
 Done.
-(There were 2 warnings)
+(There were 3 warnings)
