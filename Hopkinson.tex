@@ -107,7 +107,7 @@ An unaltered SHPB generates nearly rectangular pulses, with sharp leading and tr
 
 \subsubsection {Split Hopkinson Pressure Bar} % Nick
 %Gas gun, bar, location, etc
-The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in figure (bar alignment cartoon). A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar (Frew 2001). Upon reaching a test specimen placed at the end of the bar as in figure (overall setup), the specimen is deformed at a very high strain rate by the compression wave. This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. Additionally, the remainder of the energy from the incident wave is reflected back along the incident bar; after changing directions it changes sign and becomes a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
+The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in figure (bar alignment cartoon) \cite{Follansbee} \cite{Frew} \cite{Frew2002}. A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar \cite{Frew}. Upon reaching a test specimen placed at the end of the bar as in figure \ref{fig:TestSetup}, the specimen is deformed at a very high strain rate by the compression wave. \cite{Dai} This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. Additionally, the remainder of the energy from the incident wave is reflected back along the incident bar; after changing directions it changes sign and becomes a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
 \\ \\
 For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogenous, isotropic material. Furthermore, the bars must be uniform in cross section, which is acheived through centerless grinding. Finally, initial impact must not exceed the yeild strength of the bar else plasticity would distort the data. It is also assumed that the stress distribution over the cross section of the bar must be uniform. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still usable. 
 \\ \\
@@ -135,7 +135,7 @@ and
 
 \begin{equation}
 B_k = \frac{2}{T} \int_0^T \! f(t)sin(k\omega_0t) \, dt
-\end{equation} .
+\end{equation}  \cite{Gama}.
 
 Within these, $T$ is the period of the wave, $\omega_0$ is the fundamental frequency, $n$ = 1,2,...2$N$, where $N$ = half the number of recorded data points, $C_k$ is the speed of a wave at the $kth$ frequency, $\Delta T$ is the time step between recording intervals, and $\Delta x$ is the distance the wave is being transformed i.e. the distance from the strain gauges to the specimen. Once the waves have been transformed so they are at the same point in time, the strain gauge readings can be transformed into voltages and force values can be determined. Force on the left side of the bar is found through the equation 
 
@@ -196,6 +196,9 @@ Concrete Brazil Disc specimens with a diameter of 19.05 mm and thickness of 6.35
 Initial calibration and bar wave speed were determined without specimens using a gas gun pressure of 10.2 psi. A total of ten specimens were tested at four separate gas gun pressures - 8, 9, 10.2 and 12.4 psi. Strain gauges attached to both the incident and transmitted bars were used to detect the incident, reflected and transmitted waves in the bar. The strain gauges were located 1.219 m from the loading point on the incident bar and 0.965 m from the loading point on the transmitted bar. Voltage outputs from the strain gauges were collected using a Tektronix DPO 2004B oscilloscope. All analysis was completed in MATLAB.   
 
 \subsection{Error and Uncertainties} % Nick 
+
+The main source of uncertanty in the experiment was in the data analysis. It has been shown that the data is very sensitive to the exact value of $C_0$ as well as in shifting the pulse through time \cite{Gama}. In our data analysis, the wave speed was determined from a calibration experiment. However, force equilibrium was not satisfied, likely due to errors in shifting the incident and/or reflected waves.
+%this is the only even remotely quantificable source of error I could think of
 
 \section{Results} % John
 
