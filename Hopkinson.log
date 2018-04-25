@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  24 APR 2018 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  24 APR 2018 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,9 +695,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
  []
 
 
-LaTeX Warning: Reference `Fig:Bars' on page 2 undefined on input line 110.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 110--115
 
  []
@@ -771,7 +768,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-<SHPB_diagram.png, id=146, 1927.2pt x 1084.05pt>
+<SHPB_diagram.png, id=148, 1927.2pt x 1084.05pt>
 File: SHPB_diagram.png Graphic file (type png)
 <use SHPB_diagram.png>
 Package pdftex.def Info: SHPB_diagram.png  used on input line 208.
@@ -784,7 +781,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-<TestSetUp.png, id=157, 1927.2pt x 1084.05pt>
+<TestSetUp.png, id=159, 1927.2pt x 1084.05pt>
 File: TestSetUp.png Graphic file (type png)
 <use TestSetUp.png>
 Package pdftex.def Info: TestSetUp.png  used on input line 216.
@@ -797,12 +794,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./SHPB_diagram.png>]
-<Weibull.png, id=166, 421.575pt x 316.18124pt>
+<Weibull.png, id=167, 421.575pt x 316.18124pt>
 File: Weibull.png Graphic file (type png)
 <use Weibull.png>
 Package pdftex.def Info: Weibull.png  used on input line 223.
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
-<Pressure_TensileStrength.png, id=167, 421.575pt x 316.18124pt>
+<Pressure_TensileStrength.png, id=168, 421.575pt x 316.18124pt>
 File: Pressure_TensileStrength.png Graphic file (type png)
 <use Pressure_TensileStrength.png>
 Package pdftex.def Info: Pressure_TensileStrength.png  used on input line 230.
@@ -815,7 +812,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./TestSetUp.png> <./Weibull.png (PNG copy)>]
-<pulseshaper.png, id=174, 421.575pt x 316.18124pt>
+<pulseshaper.png, id=175, 421.575pt x 316.18124pt>
 File: pulseshaper.png Graphic file (type png)
 <use pulseshaper.png>
 Package pdftex.def Info: pulseshaper.png  used on input line 237.
@@ -850,13 +847,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `Hopkinson.out' has not changed.
 (rerunfilecheck)             Checksum: 3CF97E958CC10BFCE1D0012BF7A40BF5;695.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  )
 (\end occurred inside a group at level 1)
@@ -864,13 +854,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
 ### semi simple group (level 1) entered at line 79 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12818 strings out of 492982
- 195888 string characters out of 6132527
- 362270 words of memory out of 5000000
- 16032 multiletter control sequences out of 15000+600000
- 17054 words of font info for 100 fonts, out of 8000000 for 9000
+ 12819 strings out of 492982
+ 195892 string characters out of 6132527
+ 362272 words of memory out of 5000000
+ 16031 multiletter control sequences out of 15000+600000
+ 17103 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,43p,1052b,1536s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,43p,1053b,1535s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
@@ -886,10 +876,10 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Hopkinson.pdf (13 pages, 1525937 bytes).
+Output written on Hopkinson.pdf (13 pages, 1525790 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 256 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
  53 named destinations out of 1000 (max. 500000)
  17010 words of extra memory for PDF output out of 17280 (max. 10000000)
 
