@@ -1,16 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Hopkinson.aux
-The style file: IEEEtran.bst
+The style file: ieeetr.bst
 Database file #1: Lab3Bib.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Too many commas in name 1 of "F. Dai, S. Huang, K. Xia, Z. Tan" for entry Dai
-while executing---line 2403 of file IEEEtran.bst
-Warning--missing publisher in Shukla
+Warning--empty publisher in Shukla
 Warning--empty year in Shukla
-Warning--missing publisher in Concrete
+Warning--empty publisher in Concrete
 Warning--empty year in Concrete
-Warning--empty year in Ozbolt
-
-Done.
-(There was 1 error message)
+(There were 4 warnings)
