@@ -108,13 +108,13 @@ An unaltered SHPB generates trapezoidal pulses, with sharp leading and trailing 
 \subsubsection {Split Hopkinson Pressure Bar} % Nick
 %Gas gun, bar, location, etc
 
-The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in Figure \ref{fig:Bars} \cite{Frew2002} \cite{Follansbee} \cite{Frew}. A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar \cite{Frew}. Upon reaching a test specimen placed at the end of the bar as in Figure \ref{fig:TestSetup}, the specimen is deformed at a very high strain rate by the compression wave \cite{Dai}. This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. The remainder of the energy from the incident wave is reflected back along the incident bar as a tensile wave. The overall wavelength of the incident pulse is twice the length of the  striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
+The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in Figure \ref{fig:Bars} \cite{Frew2002} \cite{Follansbee} \cite{Frew}. A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar \cite{Frew}. Upon reaching a test specimen placed at the end of the bar as in Figure \ref{fig:TestSetup}, the specimen is deformed at a very high strain rate by the compression wave \cite{Dai}. This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. The remainder of the energy from the incident wave is reflected back along the incident bar as a tensile wave \cite{Gama}. The overall wavelength of the incident pulse is twice the length of the  striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
 =======
 The SHPB system is built off of three main parts: the striker bar, the incident bar, and the transmitted bar as shown in Figure (bar alignment cartoon) \cite{Frew2002} \cite{Follansbee} \cite{Frew}. A gas gun was used to accelerate the striker bar into the incident bar and create a one-dimensional compression wave that travels down the incident bar \cite{Frew}. Upon reaching a test specimen placed at the end of the bar as in Figure \ref{fig:TestSetup}, the specimen is deformed at a very high strain rate by the compression wave \cite{Dai}. This deformation imparts a reaction force into the transmitted bar, creating a new compression wave. The remainder of the energy from the incident wave is reflected back along the incident bar as a tensile wave. The overall wavelength of the incident pulse is the length of the striker bar. Therefore, in order to fully measure both the incident and reflected pulses without interference between the two, the incident bar must be at least twice the length of the striker bar.
 \\ \\
-For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogeneous, isotropic material. Furthermore, the bars must be uniform in cross section, which is achieved through centerless grinding. Finally, initial impact must be kept low enough so that the elastic limit of the bar is not reached. It is also assumed that the stress distribution over the cross section of the bar must be uniform. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still acceptable. 
+For a SHPB system to produce valid results, the stress wave must only propagate axially. For this assumption to be valid, several criteria must be met. The bars must be made from a homogeneous, isotropic material. Furthermore, the bars must be uniform in cross section, which is achieved through centerless grinding. Finally, initial impact must be kept low enough so that the elastic limit of the bar is not reached. It is also assumed that the stress distribution over the cross section of the bar must be uniform \cite{Gama}. This is not entirely accurate, but it has been proven that if the length of the bar is at least twenty times the diameter, the results are still acceptable \cite{Davies}. 
 \\ \\
-One of the limitations of a SHPB system is that with finite bars, dispersion effects must be considered due to variations in the speed different frequencies travel within a medium. Two methods are commonly used to compensate for dispersion. The first is the use of pulse shaping. Pulse shaping uses a sacrificial material placed between the striker bar and the incident bar. An ideal pulse shaper reduces the initial slope of the incident pulse so that it more closely resembles the specimen material response. By doing this, the high frequency content of the system is decreased and it can be assumed that only a few frequencies dominate the pulse. The second method of compensating for dispersion is through the use of post processing dispersion correction. Measurements are taken by strain gauges in the center of each bar to ensure that the incident and reflected waves are separately recorded. To then march these waveforms forward or backward in time to represent the conditions upon specimen failure, the Fourier series
+One of the limitations of a SHPB system is that with finite bars, dispersion effects must be considered due to variations in the speed different frequencies travel within a medium \cite{Gama}. Two methods are commonly used to compensate for dispersion. The first is the use of pulse shaping. Pulse shaping uses a sacrificial material placed between the striker bar and the incident bar. An ideal pulse shaper reduces the initial slope of the incident pulse so that it more closely resembles the specimen material response \cite{Frew2002}. By doing this, the high frequency content of the system is decreased and it can be assumed that only a few frequencies dominate the pulse. The second method of compensating for dispersion is through the use of post processing dispersion correction. Measurements are taken by strain gauges in the center of each bar to ensure that the incident and reflected waves are separately recorded \cite{Dai} \cite{Follansbee}. To then march these waveforms forward or backward in time to represent the conditions upon specimen failure, the Fourier series
 
 \begin{equation}
 F(n\Delta T) = \frac{A_0}{2} + \sum\limits_{k=1,2,...}^N [A_k cos(k \omega_0 n \Delta T - \phi_{TS}) + B_k sin(k\omega_0 n\Delta T - \phi_{TS})]
@@ -181,7 +181,8 @@ Initial calibration was conducted to determine a bar wave speed using a gas gun 
 \subsection{Error and Uncertainties} % Nick 
 
 The main source of uncertainty in the experiment was in the data analysis. It has been shown that the data is very sensitive to the exact value of $C_0$ as well as in shifting the pulse through time \cite{Gama}. In our data analysis, the wave speed was determined from a calibration experiment. However, force equilibrium was not satisfied, likely due to errors in shifting the incident and/or reflected waves.
-%this is the only even remotely quantificable source of error I could think of
+
+Alignment represents two additional potential sources of error. This alignment error could occur either between the different bars or between the specimen and the bar. Although a potential source of error, the trapezoid pulse seen in the calibration test in Figure \ref{fig:Pulseshaper} demonstrates that bar alignment is sufficient. Additionally, even though the stress is not constant over the cross section of the bars, it is assumed to be close enough due to their slenderness.
 
 \section{Results and Discussion} % John
 
@@ -206,6 +207,14 @@ For this report, dynamic evaluation of concrete tensile strength was performed. 
 	\caption{Experimental setup of the Split Hopkinson Pressure Bar}
 	\label{fig:TestSetup}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.75\textwidth]{bar_fig.png}
+	\caption{Diagram of the bar alignment and configuration in a SHPB system \cite{Ozbolt}}
+	\label{fig:Bars}
+\end{figure}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.67\textwidth]{SampleTrace.png}
@@ -233,6 +242,8 @@ For this report, dynamic evaluation of concrete tensile strength was performed. 
 	\caption{Calibration wave form and  comparison of the waveforms generated by use of different pule shapers with the bars apart.}
 	\label{fig:pulseshaper}
 \end{figure}
+
+
 
 %\section{Tables}
 %Recoded Experimental Data:

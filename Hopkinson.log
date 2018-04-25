@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.13)  24 APR 2018 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.24)  25 APR 2018 00:18
 entering extended mode
 **./Hopkinson.tex
 (Hopkinson.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -22,7 +22,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/03/10 v2.15b AMS math features
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -42,20 +42,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -76,8 +76,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -94,18 +94,18 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -150,12 +150,12 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@width=\dimen117
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 144.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write3
@@ -172,7 +172,7 @@ Package: accents 2006/05/12 v1.3 Math Accent Tools
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -181,7 +181,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen120
 \extrarowheight=\dimen121
 \NC@list=\toks21
@@ -225,7 +225,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \JustifyingParindent=\skip62
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -241,7 +241,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -249,7 +249,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -267,7 +267,7 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
@@ -285,40 +285,40 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count113
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count114
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count115
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen123
 \Fld@menulength=\count116
 \Field@Width=\dimen124
 \Fld@charsize=\dimen125
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count117
 \c@Item=\count118
 \c@Hfootnote=\count119
@@ -327,7 +327,7 @@ LaTeX Info: Redefining \pageref on input line 6416.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/05/21 v6.83p Hyperref driver for pdfTeX
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count120
 \c@bookmark@seq@number=\count121
 
@@ -399,7 +399,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisrulewidth=\dimen149
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -424,7 +424,7 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 \AM@pageheight=\dimen153
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box32
 \AM@global@opts=\toks25
@@ -444,14 +444,21 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 Package: placeins 2005/04/18  v 2.2
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\stackengine\stackengine.sty"
-Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
 ways
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count135
 )
-\c@@stackindex=\count136
+("C:\Program Files\MiKTeX 2.9\tex\latex\listofitems\listofitems.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\listofitems\listofitems.tex"
+\loi_nestcnt=\count136
+)
+Package: listofitems 2018/01/13 v1.52 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count137
 \@boxshift=\skip69
 \stack@tmplength=\skip70
 \temp@stkl=\skip71
@@ -460,7 +467,7 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \@anchorbox=\box36
 \stackedbox=\box37
 \@centerbox=\box38
-\c@ROWcellindex@=\count137
+\c@ROWcellindex@=\count138
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -469,21 +476,23 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-\fancy@headwidth=\skip73
-\f@ncyO@elh=\skip74
-\f@ncyO@erh=\skip75
-\f@ncyO@olh=\skip76
-\f@ncyO@orh=\skip77
-\f@ncyO@elf=\skip78
-\f@ncyO@erf=\skip79
-\f@ncyO@olf=\skip80
-\f@ncyO@orf=\skip81
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip73
+\f@nch@O@elh=\skip74
+\f@nch@O@erh=\skip75
+\f@nch@O@olh=\skip76
+\f@nch@O@orh=\skip77
+\f@nch@O@elf=\skip78
+\f@nch@O@erf=\skip79
+\f@nch@O@olf=\skip80
+\f@nch@O@orf=\skip81
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count138
-\Gm@cntv=\count139
-\c@Gm@tempcnt=\count140
+\Gm@cnth=\count139
+\Gm@cntv=\count140
+\c@Gm@tempcnt=\count141
 \Gm@bindingoffset=\dimen155
 \Gm@wd@mp=\dimen156
 \Gm@odd@mp=\dimen157
@@ -496,29 +505,30 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
-Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks29
-\MT@count=\count141
-LaTeX Info: Redefining \textls on input line 774.
+\MT@count=\count142
+LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen163
-LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count142
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count143
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
 \MT@outer@space=\skip82
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (Hopkinson.aux)
+)
+No file Hopkinson.aux.
 \openout1 = `Hopkinson.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -537,16 +547,16 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
 LaTeX Font Info:    ... okay on input line 83.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
+\scratchcounter=\count144
 \scratchdimen=\dimen164
 \scratchbox=\box39
-\nofMPsegments=\count144
-\nofMParguments=\count145
+\nofMPsegments=\count145
+\nofMParguments=\count146
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count146
+\MPscratchCnt=\count147
 \MPscratchDim=\dimen165
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
 \everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -554,12 +564,14 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count149
+\c@lstlisting=\count150
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 83.
@@ -572,13 +584,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count150
+\c@section@level=\count151
 )
 LaTeX Info: Redefining \ref on input line 83.
 LaTeX Info: Redefining \pageref on input line 83.
 LaTeX Info: Redefining \nameref on input line 83.
-
-(Hopkinson.out) (Hopkinson.out)
 \@outlinefile=\write4
 \openout4 = `Hopkinson.out'.
 
@@ -670,14 +680,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation `Jin2017' on page 2 undefined on input line 96.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
+LaTeX Warning: Citation `Kolsky' on page 2 undefined on input line 98.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
+
+
+LaTeX Warning: Citation `Frew2002' on page 2 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Follansbee' on page 2 undefined on input line 100.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
@@ -690,11 +713,73 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 104.
+
 [2]
 
 LaTeX Warning: Reference `fig:Bars' on page 3 undefined on input line 111.
 
 
+LaTeX Warning: Citation `Frew2002' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Follansbee' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Frew' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Frew' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:TestSetup' on page 3 undefined on input line 111.
+
+
+
+LaTeX Warning: Citation `Dai' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Gama' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Frew2002' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Follansbee' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Frew' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Frew' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Reference `fig:TestSetup' on page 3 undefined on input line 113.
+
+
+
+LaTeX Warning: Citation `Dai' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Gama' on page 3 undefined on input line 115.
+
+
+LaTeX Warning: Citation `Davies' on page 3 undefined on input line 115.
+
+
+LaTeX Warning: Citation `Gama' on page 3 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Frew2002' on page 3 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Dai' on page 3 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Follansbee' on page 3 undefined on input line 117.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 111--118
 
  []
@@ -709,25 +794,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 118.
 
 [3]
 
+LaTeX Warning: Citation `Gama' on page 4 undefined on input line 130.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 131.
 
 [4]
 
+LaTeX Warning: Citation `Shukla' on page 5 undefined on input line 153.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 158.
+
 [5]
+
+LaTeX Warning: Citation `Shukla' on page 6 undefined on input line 166.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 163--167
 
  []
+
+
+LaTeX Warning: Citation `MATLAB' on page 6 undefined on input line 173.
+
+
+LaTeX Warning: Reference `fig:TestSetup' on page 6 undefined on input line 177.
+
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 177--180
@@ -740,13 +851,53 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 180.
+
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 188--193
+
+LaTeX Warning: Citation `Gama' on page 7 undefined on input line 183.
+
+
+LaTeX Warning: Reference `fig:Pulseshaper' on page 7 undefined on input line 18
+5.
+
+
+LaTeX Warning: Reference `fig:SampleTrace' on page 7 undefined on input line 18
+9.
+
+
+LaTeX Warning: Citation `Jin2017' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Citation `Concrete' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Citation `Jin2017' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Citation `Grote' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Reference `fig:Weibull' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Reference `fig:GasGun' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Reference `fig:pulseshaper' on page 7 undefined on input line 19
+3.
+
+
+LaTeX Warning: Citation `Li' on page 7 undefined on input line 193.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--193
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
 
  []
 
@@ -756,16 +907,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <TestSetUp.png, id=146, 1927.2pt x 1084.05pt>
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 194.
+
+[7] <TestSetUp.png, id=65, 1927.2pt x 1084.05pt>
 File: TestSetUp.png Graphic file (type png)
  <use TestSetUp.png>
-Package pdftex.def Info: TestSetUp.png used on input line 205.
+Package pdftex.def Info: TestSetUp.png used on input line 206.
 (pdftex.def)             Requested size: 542.02501pt x 304.88832pt.
 
-<SampleTrace.png, id=148, 422.32782pt x 316.18124pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 210.
+
+[8] <bar_fig.png, id=72, 214.401pt x 107.2005pt>
+File: bar_fig.png Graphic file (type png)
+ <use bar_fig.png>
+Package pdftex.def Info: bar_fig.png used on input line 213.
+(pdftex.def)             Requested size: 406.51875pt x 203.28229pt.
+
+
+LaTeX Warning: Citation `Ozbolt' on page 9 undefined on input line 214.
+
+
+LaTeX Warning: Citation `Ozbolt' on page 9 undefined on input line 214.
+
+<SampleTrace.png, id=73, 422.32782pt x 316.18124pt>
 File: SampleTrace.png Graphic file (type png)
  <use SampleTrace.png>
-Package pdftex.def Info: SampleTrace.png used on input line 211.
+Package pdftex.def Info: SampleTrace.png used on input line 220.
 (pdftex.def)             Requested size: 363.15576pt x 271.88644pt.
 
 
@@ -774,25 +949,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 224.
 
-[9 <./TestSetUp.png>] <Weibull.png, id=166, 421.575pt x 316.18124pt>
+[9 <./TestSetUp.png> <./bar_fig.png>]
+<Weibull.png, id=83, 421.575pt x 316.18124pt>
 File: Weibull.png Graphic file (type png)
-
-<use Weibull.png>
-Package pdftex.def Info: Weibull.png used on input line 218.
+ <use Weibull.png>
+Package pdftex.def Info: Weibull.png used on input line 227.
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
 
-<Pressure_TensileStrength.png, id=167, 421.575pt x 316.18124pt>
+<Pressure_TensileStrength.png, id=84, 421.575pt x 316.18124pt>
 File: Pressure_TensileStrength.png Graphic file (type png)
 
 <use Pressure_TensileStrength.png>
-Package pdftex.def Info: Pressure_TensileStrength.png used on input line 225.
+Package pdftex.def Info: Pressure_TensileStrength.png used on input line 234.
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
 
 
@@ -801,11 +972,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 238.
+
 [10 <./SampleTrace.png (PNG copy)> <./Weibull.png (PNG copy)>]
-<pulseshaper.png, id=173, 421.575pt x 316.18124pt>
+<pulseshaper.png, id=91, 421.575pt x 316.18124pt>
 File: pulseshaper.png Graphic file (type png)
  <use pulseshaper.png>
-Package pdftex.def Info: pulseshaper.png used on input line 232.
+Package pdftex.def Info: pulseshaper.png used on input line 241.
 (pdftex.def)             Requested size: 406.51875pt x 304.89587pt.
 
 
@@ -814,6 +988,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 245.
+
 [11 <./Pressure_TensileStrength.png (PNG copy)>] (Hopkinson.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -821,7 +998,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./pulseshaper.png (PNG copy)>]) 
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 46.
+
+[12 <./pulseshaper.png (PNG copy)>])
+
+Package lastpage Warning: Rerun to get the references right on input line 290.
+
+
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -829,32 +1013,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
- (Hopkinson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
-Package rerunfilecheck Info: File `Hopkinson.out' has not changed.
-(rerunfilecheck)             Checksum: 2B4C8C56DF10C870C64D57AD2E08867C;612.
 
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 290.
+
+[13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+ (Hopkinson.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+
+
+Package rerunfilecheck Warning: File `Hopkinson.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Hopkinson.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  2B4C8C56DF10C870C64D57AD2E08867C;612.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 79 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12708 strings out of 493335
- 192595 string characters out of 3139260
- 364169 words of memory out of 3000000
- 15879 multiletter control sequences out of 15000+200000
- 17256 words of font info for 104 fonts, out of 3000000 for 9000
+ 12869 strings out of 493323
+ 195435 string characters out of 3139069
+ 366005 words of memory out of 3000000
+ 16049 multiletter control sequences out of 15000+200000
+ 17158 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,47p,1061b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,45p,1126b,1567s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
@@ -870,9 +1066,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on Hopkinson.pdf (13 pages, 1546229 bytes).
+Output written on Hopkinson.pdf (13 pages, 1553027 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 17002 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 16927 words of extra memory for PDF output out of 17280 (max. 10000000)
 
