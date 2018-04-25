@@ -45,7 +45,7 @@ W.~C. D.J.~Frew, M. J.~Forrestal, ``A split hopkinson pressure bar technique to
   \emph{Experimantal Mechincs}, vol.~41, pp. 40--46, 2001.
 
 \bibitem{Dai}
-K.~X. Z.~T. F.~Dai, S.~Huang, ``Some fundemental issuesin dynamic compresion
+K.~X. Z.~T. F.~Dai, S.~Huang, ``Some fundemental issues in dynamic compresion
   and tension test of rocks using split hopkinson pressure bar,'' \emph{Rock
   Meck Rock Eng}, 2010.
 
@@ -53,9 +53,9 @@ K.~X. Z.~T. F.~Dai, S.~Huang, ``Some fundemental issuesin dynamic compresion
 J.~W. G.~J. Bazle A.~Gama, Sergey L.~Lopatnikov, ``Hopkinson bar experimental
   technique: A critical review,'' \emph{Applied Mechanics}, 2004.
 
-\bibitem{Sampling}
-H.~J. Landau, ``Sampling, data transminsion, and the nyquist rate,''
-  \emph{IEEE}, 1967.
+\bibitem{Davies}
+R.~Davies, ``A critical study of the hopkinson pressure bar,'' \emph{IEEE},
+  1948.
 
 \bibitem{Shukla}
 J.~W.~D. Arun~Shukla, \emph{Experimental Solid Mechanics}.
@@ -75,5 +75,9 @@ M.~Z. D.L.~Grote, S.W.~Park, ``Dynamic behavior of concreate at high strain
 J.~L. Z.~Li, ``Determination of dynamic response of brittle composites by the
   use of the split hopkinson pressure bar,'' \emph{Composites Science and
   Technology}, 1999.
+
+\bibitem{Ozbolt}
+A.~S. J.~Ozbolt, J.~Weerheijm, ``Dynamic tensile resistance of concrete - split
+  hopkinson bar test,'' \emph{IEEE}.
 
 \end{thebibliography}
