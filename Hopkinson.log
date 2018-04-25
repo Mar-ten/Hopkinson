@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  25 APR 2018 08:42
 entering extended mode
  restricted \write18 enabled.
@@ -8,6 +9,15 @@ entering extended mode
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.16)  25 APR 2018 08:50
+entering extended mode
+**./Hopkinson.tex
+(Hopkinson.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -24,7 +34,11 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
@@ -96,19 +110,32 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 )))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
@@ -139,15 +166,26 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
@@ -167,7 +205,11 @@ Package: accents 2006/05/12 v1.3 Math Accent Tools
 (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -175,7 +217,11 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen120
 \extrarowheight=\dimen121
@@ -219,8 +265,13 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip61
 \JustifyingParindent=\skip62
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -244,7 +295,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+<<<<<<< HEAD
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+=======
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -279,14 +334,20 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@linkcounter=\count111
 \Hy@pagecounter=\count112
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 )
 \Hy@SavedSpaceFactor=\count113
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+<<<<<<< HEAD
 Package hyperref Info: Hyper figures OFF on input line 4509.
 Package hyperref Info: Link nesting OFF on input line 4514.
 Package hyperref Info: Hyper index ON on input line 4517.
@@ -294,17 +355,31 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
+=======
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 \c@Hy@tempcnt=\count114
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+<<<<<<< HEAD
 LaTeX Info: Redefining \url on input line 5115.
+=======
+LaTeX Info: Redefining \url on input line 5104.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 \XeTeXLinkMargin=\dimen123
 \Fld@menulength=\count115
 \Field@Width=\dimen124
 \Fld@charsize=\dimen125
+<<<<<<< HEAD
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -314,10 +389,22 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
+=======
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 \Hy@abspage=\count116
 \c@Item=\count117
 \c@Hfootnote=\count118
 )
+<<<<<<< HEAD
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -326,6 +413,17 @@ File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \c@bookmark@seq@number=\count120
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+=======
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -392,7 +490,11 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count128
 \@thisrulewidth=\dimen149
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
@@ -417,7 +519,11 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 \AM@pagewidth=\dimen152
 \AM@pageheight=\dimen153
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box32
@@ -437,6 +543,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 (/usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stackengine/stackengine.sty
 Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
 ways
@@ -447,6 +554,18 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/listofitems/listofitems.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/listofitems/listofitems.tex
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\stackengine\stackengine.sty"
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count134
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listofitems\listofitems.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\listofitems\listofitems.tex"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 \loi_nestcnt=\count135
 )
 Package: listofitems 2018/01/13 v1.52 Grab items in lists using user-specified 
@@ -469,7 +588,11 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip73
@@ -482,7 +605,11 @@ s
 \f@nch@O@olf=\skip80
 \f@nch@O@orf=\skip81
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count138
 \Gm@cntv=\count139
@@ -496,8 +623,14 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen161
 \Gm@layoutvoffset=\dimen162
 \Gm@dimlist=\toks28
+<<<<<<< HEAD
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
+=======
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks29
 \MT@count=\count141
@@ -506,7 +639,11 @@ LaTeX Info: Redefining \textls on input line 793.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
 \MT@listname@count=\count142
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
@@ -515,7 +652,11 @@ LaTeX Info: Redefining \lslig on input line 913.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
@@ -701,12 +842,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
@@ -724,6 +865,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -731,12 +876,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 163--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--180
+Underfull \hbox (badness 10000) in paragraph at lines 175--178
 
  []
 
@@ -749,15 +889,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 
 LaTeX Warning: Reference `fig:Pulseshaper' on page 7 undefined on input line 18
-5.
+3.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
 
  []
 
@@ -768,10 +908,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
+<<<<<<< HEAD
 <TestSetUp.png, id=156, 1927.2pt x 1084.05pt>
 File: TestSetUp.png Graphic file (type png)
 <use TestSetUp.png>
 Package pdftex.def Info: TestSetUp.png  used on input line 206.
+=======
+<TestSetUp.png, id=152, 1927.2pt x 1084.05pt>
+File: TestSetUp.png Graphic file (type png)
+<use TestSetUp.png>
+Package pdftex.def Info: TestSetUp.png  used on input line 204.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 (pdftex.def)             Requested size: 542.02501pt x 304.88832pt.
 
 
@@ -781,6 +928,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+<<<<<<< HEAD
 <bar_fig.png, id=171, 214.401pt x 107.2005pt>
 File: bar_fig.png Graphic file (type png)
 <use bar_fig.png>
@@ -790,6 +938,17 @@ Package pdftex.def Info: bar_fig.png  used on input line 213.
 File: SampleTrace.png Graphic file (type png)
 <use SampleTrace.png>
 Package pdftex.def Info: SampleTrace.png  used on input line 220.
+=======
+<bar_fig.png, id=163, 214.401pt x 107.2005pt>
+File: bar_fig.png Graphic file (type png)
+<use bar_fig.png>
+Package pdftex.def Info: bar_fig.png  used on input line 211.
+(pdftex.def)             Requested size: 406.51875pt x 203.28229pt.
+<SampleTrace.png, id=166, 422.32782pt x 316.18124pt>
+File: SampleTrace.png Graphic file (type png)
+<use SampleTrace.png>
+Package pdftex.def Info: SampleTrace.png  used on input line 218.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 (pdftex.def)             Requested size: 363.15576pt x 271.88644pt.
 
 
@@ -799,6 +958,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./TestSetUp.png> <./bar_fig.png>]
+<<<<<<< HEAD
 <Weibull.png, id=183, 421.575pt x 316.18124pt>
 File: Weibull.png Graphic file (type png)
 <use Weibull.png>
@@ -808,6 +968,17 @@ Package pdftex.def Info: Weibull.png  used on input line 227.
 File: Pressure_TensileStrength.png Graphic file (type png)
 <use Pressure_TensileStrength.png>
 Package pdftex.def Info: Pressure_TensileStrength.png  used on input line 234.
+=======
+<Weibull.png, id=175, 421.575pt x 316.18124pt>
+File: Weibull.png Graphic file (type png)
+<use Weibull.png>
+Package pdftex.def Info: Weibull.png  used on input line 225.
+(pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
+<Pressure_TensileStrength.png, id=176, 421.575pt x 316.18124pt>
+File: Pressure_TensileStrength.png Graphic file (type png)
+<use Pressure_TensileStrength.png>
+Package pdftex.def Info: Pressure_TensileStrength.png  used on input line 232.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
 
 
@@ -817,26 +988,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./SampleTrace.png (PNG copy)> <./Weibull.png (PNG copy)>]
+<<<<<<< HEAD
 <pulseshaper.png, id=190, 421.575pt x 316.18124pt>
 File: pulseshaper.png Graphic file (type png)
 <use pulseshaper.png>
 Package pdftex.def Info: pulseshaper.png  used on input line 241.
 (pdftex.def)             Requested size: 406.51875pt x 304.89587pt.
 
+=======
+<pulseshaper.png, id=182, 421.575pt x 316.18124pt>
+File: pulseshaper.png Graphic file (type png)
+<use pulseshaper.png>
+Package pdftex.def Info: pulseshaper.png  used on input line 239.
+(pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
+ (Hopkinson.bbl
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [11 <./Pressure_TensileStrength.png (PNG copy)>] (./Hopkinson.bbl
+=======
+[11 <./Pressure_TensileStrength.png (PNG copy)> <./pulseshaper.png (PNG copy)>]
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./pulseshaper.png (PNG copy)>]) 
+[12]) 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -845,24 +1029,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (./Hopkinson.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+ (Hopkinson.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
 Package rerunfilecheck Info: File `Hopkinson.out' has not changed.
 (rerunfilecheck)             Checksum: 06F66BAC8617A8AD89A5448FF72B49B3;602.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 79 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  12835 strings out of 492982
  196044 string characters out of 6132527
  363409 words of memory out of 5000000
@@ -890,6 +1083,33 @@ Output written on Hopkinson.pdf (13 pages, 1537283 bytes).
 PDF statistics:
  274 PDF objects out of 1000 (max. 8388607)
  231 compressed objects within 3 object streams
+=======
+ 12832 strings out of 493312
+ 194921 string characters out of 3138902
+ 359480 words of memory out of 3000000
+ 16018 multiletter control sequences out of 15000+200000
+ 17205 words of font info for 103 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,12n,45p,1120b,1529s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb>
+Output written on Hopkinson.pdf (13 pages, 1564374 bytes).
+PDF statistics:
+ 264 PDF objects out of 1000 (max. 8388607)
+>>>>>>> 25176b080636217fc4dcb197afc58bc7f58e6c35
  54 named destinations out of 1000 (max. 500000)
  17007 words of extra memory for PDF output out of 17280 (max. 10000000)
 

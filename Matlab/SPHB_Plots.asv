@@ -48,10 +48,10 @@ plot(time(:,1),v_incident(:,1),'-','Color',color(1,:))
 plot(time(:,4),v_incident(:,4),'-','Color',color(4,:))
 
 legend({'Calibration','Pulse Shaped'})
-xlabel('Time (s)')
-ylabel('Voltage (v)')
+xlabel('Time [s]')
+ylabel('Voltage [v]')
 title('Calibration and Pulse Shaped Traces')
-set(gca,'FontSize',16)
+set(gca,'FontSize',14)
 xlim([min(time(:,1)),max(time(:,1))])
 %% Wave data analysis
 
@@ -170,7 +170,7 @@ for i=6:51                                                                 %each
     
     [g,h]=max(F_transmit);
     e_transmit = abs(Volt2Strain(g));                                      %strains from max index of transmitted wave
-    e_incident = Volt2Strain(F_incident(h));
+    e_incident = (Volt2Strain(F_incident(h)));
     e_reflect = Volt2Strain(F_reflect(h));
     
     F1 = pi*((0.01905/2)^2)*70.3e9*e_incident+e_reflect;                   %Forces from strains
@@ -209,8 +209,12 @@ title('Weibull Probability Dynamic Tensile Strength of Concrete')
 
 P = [10.2, 10.2, 9, 9, 8, 8, 12.4, 12.4, 11.5, 11.9, 11.6, 12.4, 8.2, 8.1, 12, 12, 9.7, 8.4, 8.3, 11.1, 8.1, 8.2, 8.1, 8, 8.3, 8.3, 8.3, 8.3, 8.2, 8.4, 8.6, 8.6, 8.6, 8.6, 10.1];
 
+p=polyfit(X2,S2,1);
+R=corr(X2,S2,'type','pearson');
+fitS2=p(1)*X2+p(2);
+
 figure(3)
-plot(P,sigma,'x')
+plot(P,sigma/1E7,'x')
 xlabel('Gas Gun Pressure [psi]')
 ylabel('\sigma_t [MPa]')
 title('Gas Gun Pressure vs Dyanmic Tensile Strength') 
