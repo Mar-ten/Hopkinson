@@ -148,13 +148,6 @@ where $A_{Bar}$ is the area of the SHPB, $E_{Bar}$ is the elastic modulus of the
 
 where $P$ is the force applied by one side of the bar, $t$ is the specimen thickness, and $D$ is the specimen diameter. Through the application of forces on the specimen geometry, the compression wave from the SHPB will produce a tensile loading to fail the specimen.
 
-\subsubsection{High Strain Rate Data Acquisition} % Nick
-%Strain gauges, scope
-Data for the SHPB is recorded through strain gauges adhered to the center of each bar. These gauges are arranged in a full bridge configuration which only measures deformations in the axial direction. This further helps satisfy the theoretical requirement for axial wave propagation because due to the difficulty in perfectly aligning the bars, other minute deformations may exist.
-\\ \\
-%Data was recorded through the use of a Dewetron (citation) data acquision system (DAQ). A very high sampling rate is desirable for the purposes of this experiment to get the 
-In order to avoid aliasing a sample frequency equal to or greater than the Nyquist frequency ($f_N$) must be used \cite{Sampling}. The Nyquist frequency is simply double the highest frequency component of the measured signal. Since high strain rates, as seen in the SHPB, result in high frequency components a very high sample rate is required. 
-
 \subsubsection{Statistical Analysis} % John
 
 Central tendency and dispersion are two common ways to quantify the distribution of a data set \cite{Shukla}. Central tendency is quantified using the measures of mean and median. The mean of a data set is given by
@@ -183,7 +176,7 @@ where $p(x)$ is the probability of failure occurring at $x$, $x_{o}$ is the zero
 
 Concrete Brazil Disc specimens with a diameter of 19.05 mm and thickness of 6.35 mm were loaded in a SHPB. The SHPB utilized 19.05 mm diameter aluminum 7075-T6 bars for the incident and transmitted bars. The incident bar length was 2.438 m and the transmitted bar length was 1.930 m. Aluminum platens with a matching acoustic impedance were attached to the loading end of the incident and transmitted bars to prevent damage to the SHPB from the concrete specimens. A 1.058 mm thick, 9.525 mm diameter lead pulse shaper was placed on the non-loading end of the incident bar for each test. The striker bar was propelled using a custom gas gun. The experimental setup can be seen in Figure \ref{fig:TestSetup}.
 \\ \\
-Initial calibration was conducted to determine a bar wave speed using a gas gun pressure of 10.2 psi. Specimens were tested at varying gas gun pressures, ranging from 8 to 12.5 psi. Strain gauges were located 1.219 m from the loading point on the incident bar and 0.965 m from the loading point on the transmitted bar. Voltage outputs from the strain gauges were collected using a Tektronix DPO 2004B oscilloscope.   
+Initial calibration was conducted to determine a bar wave speed using a gas gun pressure of 10.2 psi. Specimens were tested at varying gas gun pressures, ranging from 8 to 12.5 psi. Strain gauges were arranged in a full bridge configuration to isolate axial strain. Gauges were located 1.219 m from the loading point on the incident bar and 0.965 m from the loading point on the transmitted bar. Voltage outputs from the strain gauges were collected using a Tektronix DPO 2004B oscilloscope and sampled at 125 MHz for a period of 1 ms. No analog or digital filtering was performed.  
 
 \subsection{Error and Uncertainties} % Nick 
 

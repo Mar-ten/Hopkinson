@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.13)  24 APR 2018 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.13)  24 APR 2018 21:09
 entering extended mode
 **./Hopkinson.tex
 (Hopkinson.tex
@@ -718,10 +718,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -729,7 +725,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
+Underfull \hbox (badness 10000) in paragraph at lines 163--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--180
 
  []
 
@@ -740,17 +741,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--200
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
 
  []
 
@@ -760,10 +756,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <TestSetUp.png, id=150, 1927.2pt x 1084.05pt>
+[7] <TestSetUp.png, id=149, 1927.2pt x 1084.05pt>
 File: TestSetUp.png Graphic file (type png)
  <use TestSetUp.png>
-Package pdftex.def Info: TestSetUp.png used on input line 212.
+Package pdftex.def Info: TestSetUp.png used on input line 205.
 (pdftex.def)             Requested size: 542.02501pt x 304.88832pt.
 
 
@@ -772,10 +768,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] <Weibull.png, id=163, 421.575pt x 316.18124pt>
+[8] <Weibull.png, id=161, 421.575pt x 316.18124pt>
 File: Weibull.png Graphic file (type png)
  <use Weibull.png>
-Package pdftex.def Info: Weibull.png used on input line 219.
+Package pdftex.def Info: Weibull.png used on input line 212.
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
 
 
@@ -785,17 +781,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./TestSetUp.png>]
-<Pressure_TensileStrength.png, id=170, 421.575pt x 316.18124pt>
+<Pressure_TensileStrength.png, id=168, 421.575pt x 316.18124pt>
 File: Pressure_TensileStrength.png Graphic file (type png)
 
 <use Pressure_TensileStrength.png>
-Package pdftex.def Info: Pressure_TensileStrength.png used on input line 226.
+Package pdftex.def Info: Pressure_TensileStrength.png used on input line 219.
 (pdftex.def)             Requested size: 363.15576pt x 272.37372pt.
 
-<pulseshaper.png, id=171, 421.575pt x 316.18124pt>
+<pulseshaper.png, id=169, 421.575pt x 316.18124pt>
 File: pulseshaper.png Graphic file (type png)
  <use pulseshaper.png>
-Package pdftex.def Info: pulseshaper.png used on input line 233.
+Package pdftex.def Info: pulseshaper.png used on input line 226.
 (pdftex.def)             Requested size: 406.51875pt x 304.89587pt.
 
 
@@ -821,49 +817,58 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (Hopkinson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
-Package rerunfilecheck Info: File `Hopkinson.out' has not changed.
-(rerunfilecheck)             Checksum: DF8DC3881D33436277FBFAA8D4F1FD6E;706.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 
+
+Package rerunfilecheck Warning: File `Hopkinson.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Hopkinson.out':
+(rerunfilecheck)             Before: DF8DC3881D33436277FBFAA8D4F1FD6E;706
+(rerunfilecheck)             After:  2B4C8C56DF10C870C64D57AD2E08867C;612.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 79 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12702 strings out of 493335
- 192503 string characters out of 3139260
+ 12700 strings out of 493335
+ 192487 string characters out of 3139260
  364015 words of memory out of 3000000
  15875 multiletter control sequences out of 15000+200000
- 17256 words of font info for 104 fonts, out of 3000000 for 9000
+ 17207 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,47p,1061b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on Hopkinson.pdf (12 pages, 1536795 bytes).
+ 42i,12n,47p,1061b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsubsection.2.1.3} has been refer
+enced but does not exist, replaced by a fixed one
+
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti12.pfb>
+Output written on Hopkinson.pdf (12 pages, 1536247 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
  17005 words of extra memory for PDF output out of 17280 (max. 10000000)
 
