@@ -209,9 +209,16 @@ title('Weibull Probability Dynamic Tensile Strength of Concrete')
 
 P = [10.2, 10.2, 9, 9, 8, 8, 12.4, 12.4, 11.5, 11.9, 11.6, 12.4, 8.2, 8.1, 12, 12, 9.7, 8.4, 8.3, 11.1, 8.1, 8.2, 8.1, 8, 8.3, 8.3, 8.3, 8.3, 8.2, 8.4, 8.6, 8.6, 8.6, 8.6, 10.1];
 
+p=polyfit(P,sigma/1E7,1);
+Rs=corr(P,sigma,'type','Pearson');
+fit=p(1)*P+p(2);
+
 figure(3)
+hold on
 plot(P,sigma/1E7,'x')
+plot(P,fit,'r','LineWidth',1.5)
 xlabel('Gas Gun Pressure [psi]')
 ylabel('\sigma_t [MPa]')
+legend({'data',['Linear Fit']},'Location','NorthWest','FontSize',12)
 title('Gas Gun Pressure vs Dyanmic Tensile Strength') 
-set(gca,'FontSize',14)
+set(gca,'FontSize',12)
